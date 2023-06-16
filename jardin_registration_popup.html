@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+    <link rel="stylesheet" type="text/css" href="css/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="css/slick-theme.css"/>
+    <link rel="stylesheet" href="css/jquery.mCustomScrollbar.min.css">
+    <link rel="stylesheet" href="css/jardin_styles.css">
+
+    <link rel="stylesheet" href="css_registration_popup/jardin_registration_popup.css">
+
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.0/jquery-ui.min.js" integrity="sha256-eGE6blurk5sHj+rmkfsGYeKyZx3M4bG+ZlFyA7Kns7E=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="js/slick.min.js"></script>
+    <script type="text/javascript" src="js/jquery.mCustomScrollbar.concat.min.js"></script>
+    <script type="text/javascript" src="js/jardin_js.js"></script>
+    <title>Jardin</title>
+</head>
+<body>
+
+<div class="jardin_page_wrapper">
+    <div class="jardin_popup_bg opened"></div>
+    <div class="jardin_popup_wrapper jardin_registration_popup_wrapper">
+        <div class="jardin_popup_inner">
+            <div class="close_popup"></div>
+            <div class="popup_title">Личный кабинет</div>
+            <div class="popup_subtitle">Для участия в акции, необходимо</div>
+            <div class="jardin_button jardin_registration_submit">Зарегистрироваться</div>
+            <div class="jardin_button jardin_registration_submit">Авторизоваться</div>
+        </div>
+    </div>
+
+    <div class="jardin_popup_wrapper jardin_registration_popup_wrapper jardin_registration_popup opened">
+        <div class="jardin_popup_inner">
+            <div class="close_popup"></div>
+            <div class="popup_title">Регистрация</div>
+            <div class="popup_subtitle">Есть аккаунт? <span class="registration_popup_link">Авторизация</span></div>
+            <form class="jardin_registration_form">
+                <fieldset class="formRow">
+                    <div class="formRow--item">
+                        <label for="name" class="formRow--input-wrapper js-inputWrapper">
+                            <input type="text" class="formRow--input js-input" id="name" placeholder="Ваше  имя">
+                        </label>
+                    </div>
+                </fieldset>
+                <fieldset class="formRow">
+                    <div class="formRow--item">
+                        <label for="email" class="formRow--input-wrapper js-inputWrapper">
+                            <input type="text" class="formRow--input  error js-input" id="email" placeholder="E-mail">
+                            <span class="error_message">Ошибка</span>
+                        </label>
+                    </div>
+                </fieldset>
+                <fieldset class="formRow">
+                    <div class="formRow--item">
+                        <label for="name" class="formRow--input-wrapper js-inputWrapper">
+                            <input type="text" class="formRow--input js-input" id="phone" placeholder="Телефон">
+                        </label>
+                    </div>
+                </fieldset>
+                <fieldset class="formRow">
+                    <div class="formRow--item">
+                        <label for="name" class="formRow--input-wrapper js-inputWrapper">
+                            <input type="text" class="formRow--input js-input" id="card_number" placeholder="Номер карты лояльности">
+                        </label>
+                    </div>
+                </fieldset>
+                <label class="checkbox_container">
+                    <input type="checkbox" checked="checked">
+                    <span class="checkmark"></span>
+                    <span class="checkbox_label">
+                        Я согласен с правилами акции, пользовательским соглашением и с положением о конфиденциальности
+                    </span>
+                </label>
+                <input type="submit" value="Зарегистрироваться" class="jardin_button jardin_registration_submit jardin_registration_submit_loading">
+            </form>
+        </div>
+    </div>
+
+    <div class="jardin_popup_wrapper jardin_registration_popup_wrapper jardin_authorization_popup">
+        <div class="jardin_popup_inner">
+            <div class="close_popup"></div>
+            <div class="popup_title">Авторизация</div>
+            <div class="popup_subtitle">Нет аккаунта? <span class="registration_popup_link">Регистрация</span></div>
+            <form class="jardin_registration_form">
+                <fieldset class="formRow">
+                    <div class="formRow--item">
+                        <label for="email" class="formRow--input-wrapper js-inputWrapper">
+                            <input type="text" class="formRow--input js-input" id="authorization_email" placeholder="E-mail">
+                        </label>
+                    </div>
+                </fieldset>
+                <fieldset class="formRow">
+                    <div class="formRow--item">
+                        <label for="name" class="formRow--input-wrapper js-inputWrapper">
+                            <input type="text" class="formRow--input js-input" id="password" placeholder="Пароль">
+                        </label>
+                    </div>
+                </fieldset>
+                <label class="checkbox_container checkbox_container_centered">
+                    <input type="checkbox" checked="checked">
+                    <span class="checkmark"></span>
+                    <span class="checkbox_label">
+                        Запомнить меня
+                    </span>
+                </label>
+                <input type="submit" value="Авторизоваться" class="jardin_button jardin_registration_submit">
+                <div class="popup_text">Забыли пароль? <span class="registration_popup_link">Восстановить</span></div>
+            </form>
+        </div>
+    </div>
+
+    <div class="jardin_popup_wrapper jardin_registration_popup_wrapper jardin_restore_password_popup">
+        <div class="jardin_popup_inner">
+            <div class="close_popup"></div>
+            <div class="popup_title">Вспомнить пароль</div>
+            <div class="popup_subtitle">Введите Ваш e-mail</div>
+            <form class="jardin_registration_form">
+                <fieldset class="formRow">
+                    <div class="formRow--item">
+                        <label for="email" class="formRow--input-wrapper js-inputWrapper">
+                            <input type="text" class="formRow--input js-input" id="email_1" placeholder="E-mail">
+                        </label>
+                    </div>
+                </fieldset>
+                <input type="submit" value="Авторизоваться" class="jardin_button jardin_registration_submit">
+            </form>
+        </div>
+    </div>
+
+    <div class="jardin_popup_wrapper jardin_registration_popup_wrapper jardin_reset_password_popup">
+        <div class="jardin_popup_inner">
+            <div class="close_popup"></div>
+            <div class="popup_title">Смена пароля</div>
+            <form class="jardin_registration_form">
+                <fieldset class="formRow">
+                    <div class="formRow--item">
+                        <label for="email" class="formRow--input-wrapper js-inputWrapper">
+                            <input type="text" class="formRow--input js-input" id="old_password" placeholder="Старый пароль">
+                        </label>
+                    </div>
+                </fieldset>
+                <fieldset class="formRow">
+                    <div class="formRow--item">
+                        <label for="email" class="formRow--input-wrapper js-inputWrapper">
+                            <input type="text" class="formRow--input js-input" id="new_password" placeholder="Новый пароль">
+                        </label>
+                    </div>
+                </fieldset>
+                <fieldset class="formRow">
+                    <div class="formRow--item">
+                        <label for="email" class="formRow--input-wrapper js-inputWrapper">
+                            <input type="text" class="formRow--input js-input" id="new_repeat_password" placeholder="Повторите пароль">
+                        </label>
+                    </div>
+                </fieldset>
+                <input type="submit" value="Авторизоваться" class="jardin_button jardin_registration_submit">
+            </form>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>

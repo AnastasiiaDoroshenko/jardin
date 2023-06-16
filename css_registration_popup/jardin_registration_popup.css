@@ -1,0 +1,510 @@
+.jardin_page_wrapper .jardin_registration_popup_wrapper .jardin_popup_inner {
+  width: 30.625vw;
+  padding: 3.33vw 5.42vw 1.67vw;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.jardin_page_wrapper .jardin_registration_popup_wrapper .jardin_popup_inner .popup_title, .jardin_page_wrapper .jardin_registration_popup_wrapper .jardin_popup_inner .popup_subtitle {
+  margin-bottom: 1.25vw;
+}
+.jardin_page_wrapper .jardin_registration_popup_wrapper .jardin_popup_inner .popup_text {
+  text-align: center;
+  font-weight: normal;
+  font-size: 0.94vw;
+  line-height: 1.25vw;
+  color: #C3C3C3;
+  margin: 0.42vw auto 0;
+  width: 100%;
+}
+.jardin_page_wrapper .jardin_registration_popup_wrapper .jardin_popup_inner .jardin_registration_submit {
+  width: 19.79vw;
+  height: 3.02vw;
+  font-size: 1.04vw;
+  line-height: 1.25vw;
+  margin: 0.83vw auto 0;
+  border: none;
+  position: relative;
+}
+.jardin_page_wrapper .jardin_registration_popup_wrapper .jardin_popup_inner .jardin_registration_submit.jardin_registration_submit_loading {
+  background-image: url("../ajax-loader.gif");
+  background-size: 16px 16px;
+  background-repeat: no-repeat;
+  background-position: center right 2vw;
+}
+.jardin_page_wrapper .jardin_registration_popup_wrapper .jardin_popup_inner .registration_popup_link {
+  cursor: pointer;
+  color: #887C47;
+}
+.jardin_page_wrapper .jardin_registration_popup_wrapper .jardin_popup_inner .jardin_registration_form {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -moz-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  -o-flex-wrap: wrap;
+  -khtml-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-justify-content: space-between;
+  -moz-justify-content: space-between;
+  -ms-justify-content: space-between;
+  -o-justify-content: space-between;
+  -khtml-justify-content: space-between;
+  justify-content: space-between;
+  max-width: 19.79vw;
+  margin: 0 auto;
+}
+.jardin_page_wrapper .jardin_registration_popup_wrapper .jardin_popup_inner .jardin_registration_form .jardin_registration_submit {
+  margin: 1.67vw auto 0;
+}
+.jardin_page_wrapper .jardin_registration_popup_wrapper .jardin_popup_inner .jardin_registration_form .formRow {
+  position: relative;
+  width: 100%;
+  margin-bottom: 0.83vw;
+}
+.jardin_page_wrapper .jardin_registration_popup_wrapper .jardin_popup_inner .jardin_registration_form .formRow:last-of-type {
+  margin-bottom: 0;
+}
+.jardin_page_wrapper .jardin_registration_popup_wrapper .jardin_popup_inner .jardin_registration_form .formRow--item {
+  display: block;
+  width: 100%;
+}
+.jardin_page_wrapper .jardin_registration_popup_wrapper .jardin_popup_inner .jardin_registration_form .formRow--textarea {
+  height: 6.67vw;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.jardin_page_wrapper .jardin_registration_popup_wrapper .jardin_popup_inner .jardin_registration_form .formRow--input {
+  position: relative;
+  padding: 0.83vw 1.11vw;
+  width: 100%;
+  outline: none;
+  border: 1px solid #777670;
+  box-sizing: border-box;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.25vw;
+  line-height: 1.67vw;
+  color: #C3C3C3;
+  resize: none;
+  transition: all 0.2s ease;
+  background: #262422;
+}
+.jardin_page_wrapper .jardin_registration_popup_wrapper .jardin_popup_inner .jardin_registration_form .formRow--input-wrapper {
+  position: relative;
+  display: block;
+  width: 100%;
+}
+.jardin_page_wrapper .jardin_registration_popup_wrapper .jardin_popup_inner .jardin_registration_form .formRow--input-wrapper.active .placeholder {
+  top: -0.525vw;
+  background: #262422;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 0.97vw;
+  line-height: 1.11vw;
+  color: #777670;
+  transform: translateY(0);
+}
+.jardin_page_wrapper .jardin_registration_popup_wrapper .jardin_popup_inner .jardin_registration_form .formRow--input-wrapper.active .formRow--input:not(:focus):not(:hover) ~ .placeholder {
+  color: #777670;
+}
+.jardin_page_wrapper .jardin_registration_popup_wrapper .jardin_popup_inner .jardin_registration_form .formRow--input-wrapper .formRow--input:focus, .jardin_page_wrapper .jardin_registration_popup_wrapper .jardin_popup_inner .jardin_registration_form .formRow--input-wrapper .formRow--input:hover {
+  border-color: #887C47;
+}
+.jardin_page_wrapper .jardin_registration_popup_wrapper .jardin_popup_inner .jardin_registration_form .formRow--input.error {
+  border: 1px solid #D73636;
+  color: #D73636;
+}
+.jardin_page_wrapper .jardin_registration_popup_wrapper .jardin_popup_inner .jardin_registration_form .formRow .error_message {
+  display: block;
+  position: relative;
+  left: 0.55vw;
+  bottom: 0;
+  color: #D73636;
+  font-size: 0.625vw;
+  line-height: 0.83vw;
+}
+.jardin_page_wrapper .jardin_registration_popup_wrapper .jardin_popup_inner .jardin_registration_form .formRow .placeholder {
+  position: absolute;
+  top: 0.83vw;
+  left: 0.69vw;
+  display: block;
+  padding: 0 0.28vw;
+  white-space: nowrap;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.25vw;
+  line-height: 1.67vw;
+  color: #C3C3C3;
+  transition: all, 0.2s;
+  pointer-events: none;
+  user-select: none;
+}
+.jardin_page_wrapper .jardin_registration_popup_wrapper .jardin_popup_inner .jardin_registration_form .checkbox_container {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  cursor: pointer;
+  margin: 1.67vw 0 0;
+}
+.jardin_page_wrapper .jardin_registration_popup_wrapper .jardin_popup_inner .jardin_registration_form .checkbox_container.checkbox_container_centered {
+  -webkit-align-items: center;
+  -moz-align-items: center;
+  -ms-align-items: center;
+  -o-align-items: center;
+  -khtml-align-items: center;
+  align-items: center;
+}
+.jardin_page_wrapper .jardin_registration_popup_wrapper .jardin_popup_inner .jardin_registration_form .checkbox_container.checkbox_container_centered .checkbox_label {
+  line-height: 1vw;
+}
+.jardin_page_wrapper .jardin_registration_popup_wrapper .jardin_popup_inner .jardin_registration_form .checkbox_container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+.jardin_page_wrapper .jardin_registration_popup_wrapper .jardin_popup_inner .jardin_registration_form .checkbox_container .checkmark {
+  width: 1.25vw;
+  height: 1.25vw;
+  display: block;
+  border: 1px solid #777670;
+  -webkit-flex-shrink: 0;
+  -moz-flex-shrink: 0;
+  -ms-flex-shrink: 0;
+  -o-flex-shrink: 0;
+  -khtml-flex-shrink: 0;
+  flex-shrink: 0;
+  margin-right: 0.42vw;
+}
+.jardin_page_wrapper .jardin_registration_popup_wrapper .jardin_popup_inner .jardin_registration_form .checkbox_container .checkbox_label {
+  font-size: 0.94vw;
+  line-height: 1.25vw;
+  color: #C3C3C3;
+}
+.jardin_page_wrapper .jardin_registration_popup_wrapper .jardin_popup_inner .jardin_registration_form .checkbox_container input:checked ~ .checkmark {
+  background-image: url("../img/check-mark.svg");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+@media screen and (min-width: 1440px) {
+  .jardin_page_wrapper .jardin_registration_popup_wrapper .jardin_popup_inner {
+    width: 588px;
+    min-height: 32px;
+    padding: 64px 104px 32px;
+  }
+  .jardin_page_wrapper .jardin_registration_popup_wrapper .jardin_popup_inner .popup_title, .jardin_page_wrapper .jardin_registration_popup_wrapper .jardin_popup_inner .popup_subtitle {
+    margin-bottom: 24px;
+  }
+  .jardin_page_wrapper .jardin_registration_popup_wrapper .jardin_popup_inner .popup_text {
+    font-size: 18px;
+    line-height: 24px;
+    margin: 8px auto 0;
+  }
+  .jardin_page_wrapper .jardin_registration_popup_wrapper .jardin_popup_inner .jardin_registration_submit {
+    width: 380px;
+    height: 58px;
+    font-size: 20px;
+    line-height: 24px;
+    margin: 16px auto 0;
+  }
+  .jardin_page_wrapper .jardin_registration_popup_wrapper .jardin_popup_inner .jardin_registration_form {
+    max-width: 380px;
+  }
+  .jardin_page_wrapper .jardin_registration_popup_wrapper .jardin_popup_inner .jardin_registration_form .jardin_registration_submit {
+    margin: 32px auto 0;
+  }
+  .jardin_page_wrapper .jardin_registration_popup_wrapper .jardin_popup_inner .jardin_registration_form .formRow {
+    margin-bottom: 16px;
+  }
+  .jardin_page_wrapper .jardin_registration_popup_wrapper .jardin_popup_inner .jardin_registration_form .formRow--textarea {
+    height: 96px;
+  }
+  .jardin_page_wrapper .jardin_registration_popup_wrapper .jardin_popup_inner .jardin_registration_form .formRow--input {
+    padding: 12px 16px;
+    font-size: 18px;
+    line-height: 24px;
+  }
+  .jardin_page_wrapper .jardin_registration_popup_wrapper .jardin_popup_inner .jardin_registration_form .formRow--input-wrapper.active .placeholder {
+    top: -7.56px;
+    font-size: 14px;
+    line-height: 16px;
+  }
+  .jardin_page_wrapper .jardin_registration_popup_wrapper .jardin_popup_inner .jardin_registration_form .formRow .error_message {
+    left: 7.92px;
+    font-size: 12px;
+    line-height: 16px;
+  }
+  .jardin_page_wrapper .jardin_registration_popup_wrapper .jardin_popup_inner .jardin_registration_form .formRow .placeholder {
+    top: 12px;
+    left: 10px;
+    padding: 0 4px;
+    font-size: 18px;
+    line-height: 24px;
+  }
+  .jardin_page_wrapper .jardin_registration_popup_wrapper .jardin_popup_inner .jardin_registration_form .checkbox_container {
+    margin: 32px 0 0;
+  }
+  .jardin_page_wrapper .jardin_registration_popup_wrapper .jardin_popup_inner .jardin_registration_form .checkbox_container.checkbox_container_centered {
+    -webkit-align-items: center;
+  }
+  .jardin_page_wrapper .jardin_registration_popup_wrapper .jardin_popup_inner .jardin_registration_form .checkbox_container.checkbox_container_centered .checkbox_label {
+    line-height: 20px;
+  }
+  .jardin_page_wrapper .jardin_registration_popup_wrapper .jardin_popup_inner .jardin_registration_form .checkbox_container .checkmark {
+    width: 24px;
+    height: 24px;
+    margin-right: 8px;
+  }
+  .jardin_page_wrapper .jardin_registration_popup_wrapper .jardin_popup_inner .jardin_registration_form .checkbox_container .checkbox_label {
+    font-size: 18px;
+    line-height: 24px;
+  }
+}
+@media screen and (max-width: 1439px) {
+  .jardin_page_wrapper .jardin_registration_popup_wrapper .jardin_popup_inner {
+    width: 57.42vw;
+    min-height: 3.12vw;
+    padding: 6.24vw 10.15vw 3.12vw;
+  }
+  .jardin_page_wrapper .jardin_registration_popup_wrapper .jardin_popup_inner .popup_title, .jardin_page_wrapper .jardin_registration_popup_wrapper .jardin_popup_inner .popup_subtitle {
+    margin-bottom: 2.35vw;
+  }
+  .jardin_page_wrapper .jardin_registration_popup_wrapper .jardin_popup_inner .popup_text {
+    font-size: 1.76vw;
+    line-height: 2.35vw;
+    margin: 0.77vw auto 0;
+  }
+  .jardin_page_wrapper .jardin_registration_popup_wrapper .jardin_popup_inner .jardin_registration_submit {
+    width: 37.1vw;
+    height: 5.67vw;
+    font-size: 1.95vw;
+    line-height: 2.35vw;
+    margin: 1.56vw auto 0;
+  }
+  .jardin_page_wrapper .jardin_registration_popup_wrapper .jardin_popup_inner .jardin_registration_form {
+    max-width: 37.1vw;
+  }
+  .jardin_page_wrapper .jardin_registration_popup_wrapper .jardin_popup_inner .jardin_registration_form .jardin_registration_submit {
+    margin: 3.12vw auto 0;
+  }
+  .jardin_page_wrapper .jardin_registration_popup_wrapper .jardin_popup_inner .jardin_registration_form .formRow {
+    margin-bottom: 1.11vw;
+  }
+  .jardin_page_wrapper .jardin_registration_popup_wrapper .jardin_popup_inner .jardin_registration_form .formRow--textarea {
+    height: 9.38vw;
+  }
+  .jardin_page_wrapper .jardin_registration_popup_wrapper .jardin_popup_inner .jardin_registration_form .formRow--input {
+    padding: 1.17vw 1.56vw;
+    font-size: 1.76vw;
+    line-height: 2.35vw;
+  }
+  .jardin_page_wrapper .jardin_registration_popup_wrapper .jardin_popup_inner .jardin_registration_form .formRow--input-wrapper.active .placeholder {
+    top: -0.74vw;
+    font-size: 1.36vw;
+    line-height: 1.56vw;
+  }
+  .jardin_page_wrapper .jardin_registration_popup_wrapper .jardin_popup_inner .jardin_registration_form .formRow .error_message {
+    left: 0.77vw;
+    font-size: 1.17vw;
+    line-height: 1.56vw;
+  }
+  .jardin_page_wrapper .jardin_registration_popup_wrapper .jardin_popup_inner .jardin_registration_form .formRow .placeholder {
+    top: 1.17vw;
+    left: 0.97vw;
+    padding: 0 0.39vw;
+    font-size: 1.76vw;
+    line-height: 2.35vw;
+  }
+  .jardin_page_wrapper .jardin_registration_popup_wrapper .jardin_popup_inner .jardin_registration_form .checkbox_container {
+    margin: 3.12vw 0 0;
+  }
+  .jardin_page_wrapper .jardin_registration_popup_wrapper .jardin_popup_inner .jardin_registration_form .checkbox_container.checkbox_container_centered .checkbox_label {
+    line-height: 1.95vw;
+  }
+  .jardin_page_wrapper .jardin_registration_popup_wrapper .jardin_popup_inner .jardin_registration_form .checkbox_container .checkmark {
+    width: 2.35vw;
+    height: 2.35vw;
+    margin-right: 0.77vw;
+  }
+  .jardin_page_wrapper .jardin_registration_popup_wrapper .jardin_popup_inner .jardin_registration_form .checkbox_container .checkbox_label {
+    font-size: 1.76vw;
+    line-height: 2.35vw;
+  }
+}
+@media screen and (max-width: 1023px) {
+  .jardin_page_wrapper .jardin_registration_popup_wrapper .jardin_popup_inner {
+    width: 76.56vw;
+    min-height: 4.17vw;
+    padding: 8.33vw 15.64vw 4.17vw;
+  }
+  .jardin_page_wrapper .jardin_registration_popup_wrapper .jardin_popup_inner .popup_title, .jardin_page_wrapper .jardin_registration_popup_wrapper .jardin_popup_inner .popup_subtitle {
+    margin-bottom: 3.125vw;
+  }
+  .jardin_page_wrapper .jardin_registration_popup_wrapper .jardin_popup_inner .popup_text {
+    font-size: 2.34vw;
+    line-height: 3.125vw;
+    margin: 1.04vw auto 0;
+  }
+  .jardin_page_wrapper .jardin_registration_popup_wrapper .jardin_popup_inner .jardin_registration_submit {
+    width: 49.48vw;
+    height: 7.55vw;
+    font-size: 2.6vw;
+    line-height: 3.125vw;
+    margin: 2.08vw auto 0;
+  }
+  .jardin_page_wrapper .jardin_registration_popup_wrapper .jardin_popup_inner .jardin_registration_form {
+    max-width: 49.48vw;
+  }
+  .jardin_page_wrapper .jardin_registration_popup_wrapper .jardin_popup_inner .jardin_registration_form .jardin_registration_submit {
+    margin: 4.16vw auto 0;
+  }
+  .jardin_page_wrapper .jardin_registration_popup_wrapper .jardin_popup_inner .jardin_registration_form .formRow {
+    margin-bottom: 1.56vw;
+  }
+  .jardin_page_wrapper .jardin_registration_popup_wrapper .jardin_popup_inner .jardin_registration_form .formRow--textarea {
+    height: 12.5vw;
+  }
+  .jardin_page_wrapper .jardin_registration_popup_wrapper .jardin_popup_inner .jardin_registration_form .formRow--input {
+    padding: 1.56vw 2.08vw;
+    font-size: 2.35vw;
+    line-height: 3.13vw;
+  }
+  .jardin_page_wrapper .jardin_registration_popup_wrapper .jardin_popup_inner .jardin_registration_form .formRow--input-wrapper.active .placeholder {
+    top: -0.99vw;
+    font-size: 1.81vw;
+    line-height: 2.08vw;
+  }
+  .jardin_page_wrapper .jardin_registration_popup_wrapper .jardin_popup_inner .jardin_registration_form .formRow .error_message {
+    left: 1.03vw;
+    font-size: 1.56vw;
+    line-height: 2.08vw;
+  }
+  .jardin_page_wrapper .jardin_registration_popup_wrapper .jardin_popup_inner .jardin_registration_form .formRow .placeholder {
+    top: 1.56vw;
+    left: 1.29vw;
+    padding: 0 0.52vw;
+    font-size: 2.35vw;
+    line-height: 3.13vw;
+  }
+  .jardin_page_wrapper .jardin_registration_popup_wrapper .jardin_popup_inner .jardin_registration_form .checkbox_container {
+    margin: 4.16vw 0 0;
+  }
+  .jardin_page_wrapper .jardin_registration_popup_wrapper .jardin_popup_inner .jardin_registration_form .checkbox_container.checkbox_container_centered {
+    -webkit-align-items: center;
+  }
+  .jardin_page_wrapper .jardin_registration_popup_wrapper .jardin_popup_inner .jardin_registration_form .checkbox_container.checkbox_container_centered .checkbox_label {
+    line-height: 2.6vw;
+  }
+  .jardin_page_wrapper .jardin_registration_popup_wrapper .jardin_popup_inner .jardin_registration_form .checkbox_container .checkmark {
+    width: 3.125vw;
+    height: 3.125vw;
+    margin-right: 1.04vw;
+  }
+  .jardin_page_wrapper .jardin_registration_popup_wrapper .jardin_popup_inner .jardin_registration_form .checkbox_container .checkbox_label {
+    font-size: 2.34vw;
+    line-height: 3.125vw;
+  }
+}
+@media screen and (max-width: 767px) {
+  .jardin_page_wrapper .jardin_registration_popup_wrapper .jardin_popup_inner {
+    width: 90vw;
+    min-height: 4.17vw;
+    padding: 20vw 7.5vw 7.5vw;
+  }
+  .jardin_page_wrapper .jardin_registration_popup_wrapper .jardin_popup_inner .popup_title {
+    margin-bottom: 2.5vw;
+  }
+  .jardin_page_wrapper .jardin_registration_popup_wrapper .jardin_popup_inner .popup_subtitle {
+    margin-bottom: 7.5vw;
+  }
+  .jardin_page_wrapper .jardin_registration_popup_wrapper .jardin_popup_inner .popup_text {
+    font-size: 4.375vw;
+    line-height: 5vw;
+    margin: 2.5vw auto 0;
+  }
+  .jardin_page_wrapper .jardin_registration_popup_wrapper .jardin_popup_inner .jardin_registration_submit {
+    width: 100%;
+    height: 15vw;
+    font-size: 5vw;
+    line-height: 7.5vw;
+    margin: 5vw auto 0;
+  }
+  .jardin_page_wrapper .jardin_registration_popup_wrapper .jardin_popup_inner .jardin_registration_form {
+    max-width: 100%;
+  }
+  .jardin_page_wrapper .jardin_registration_popup_wrapper .jardin_popup_inner .jardin_registration_form .jardin_registration_submit {
+    margin: 10vw auto 0;
+  }
+  .jardin_page_wrapper .jardin_registration_popup_wrapper .jardin_popup_inner .jardin_registration_form .formRow {
+    margin-bottom: 5vw;
+  }
+  .jardin_page_wrapper .jardin_registration_popup_wrapper .jardin_popup_inner .jardin_registration_form .formRow.formRow_input {
+    width: 100%;
+  }
+  .jardin_page_wrapper .jardin_registration_popup_wrapper .jardin_popup_inner .jardin_registration_form .formRow--textarea {
+    height: 27.5vw;
+  }
+  .jardin_page_wrapper .jardin_registration_popup_wrapper .jardin_popup_inner .jardin_registration_form .formRow--input {
+    padding: 2.5vw;
+    font-size: 5vw;
+    line-height: 7.5vw;
+  }
+  .jardin_page_wrapper .jardin_registration_popup_wrapper .jardin_popup_inner .jardin_registration_form .formRow--input-wrapper.active .placeholder {
+    top: -2.18vw;
+    font-size: 4.375vw;
+    line-height: 5vw;
+  }
+  .jardin_page_wrapper .jardin_registration_popup_wrapper .jardin_popup_inner .jardin_registration_form .formRow .error_message {
+    left: 1.03vw;
+    font-size: 3.44vw;
+    line-height: 5vw;
+  }
+  .jardin_page_wrapper .jardin_registration_popup_wrapper .jardin_popup_inner .jardin_registration_form .formRow .placeholder {
+    top: 3vw;
+    left: 2.5vw;
+    padding: 0 1.25vw;
+    font-size: 5vw;
+    line-height: 7.5vw;
+  }
+  .jardin_page_wrapper .jardin_registration_popup_wrapper .jardin_popup_inner .jardin_registration_form .checkbox_container {
+    margin: 10vw 0 0;
+  }
+  .jardin_page_wrapper .jardin_registration_popup_wrapper .jardin_popup_inner .jardin_registration_form .checkbox_container.checkbox_container_centered {
+    -webkit-align-items: center;
+  }
+  .jardin_page_wrapper .jardin_registration_popup_wrapper .jardin_popup_inner .jardin_registration_form .checkbox_container.checkbox_container_centered .checkbox_label {
+    line-height: 5vw;
+  }
+  .jardin_page_wrapper .jardin_registration_popup_wrapper .jardin_popup_inner .jardin_registration_form .checkbox_container .checkmark {
+    width: 6.25vw;
+    height: 6.25vw;
+    margin-right: 2.5vw;
+  }
+  .jardin_page_wrapper .jardin_registration_popup_wrapper .jardin_popup_inner .jardin_registration_form .checkbox_container .checkbox_label {
+    font-size: 4.375vw;
+    line-height: 5vw;
+  }
+  .jardin_page_wrapper .jardin_registration_popup_wrapper.jardin_popup_wrapper_horizontal .jardin_popup_inner {
+    height: auto !important;
+    min-height: 272px;
+  }
+  .jardin_page_wrapper .jardin_registration_popup_wrapper.jardin_popup_wrapper_horizontal .jardin_popup_inner .jardin_registration_submit {
+    width: 248px;
+    height: 58px;
+    font-size: 20px;
+    line-height: 24px;
+    margin: 24px auto 0;
+  }
+}
+
+/*# sourceMappingURL=jardin_registration_popup.css.map */

@@ -1,0 +1,1911 @@
+@font-face {
+  font-family: "Circe";
+  src: url("../font/Circe-Regular.eot");
+  src: local("Circe"), local("Circe-Regular"), url("../font/Circe-Regular.eot?#iefix") format("embedded-opentype"), url("../font/Circe-Regular.woff") format("woff"), url("../font/Circe-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Circe";
+  src: url("../font/Circe-Bold.eot");
+  src: local("Circe Bold"), local("Circe-Bold"), url("../font/Circe-Bold.eot?#iefix") format("embedded-opentype"), url("../font/Circe-Bold.woff") format("woff"), url("../font/Circe-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: "ToJapan";
+  src: url("../font/ToJapan.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+.jardin_game_page_wrapper {
+  font-family: Circe;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 1vw 8.33vw;
+  width: 100%;
+  min-height: 100vh;
+  overflow: hidden;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -moz-flex-direction: column;
+  -ms-flex-direction: column;
+  -o-flex-direction: column;
+  -khtml-flex-direction: column;
+  flex-direction: column;
+  -webkit-align-items: center;
+  -moz-align-items: center;
+  -ms-align-items: center;
+  -o-align-items: center;
+  -khtml-align-items: center;
+  align-items: center;
+  -webkit-justify-content: center;
+  -moz-justify-content: center;
+  -ms-justify-content: center;
+  -o-justify-content: center;
+  -khtml-justify-content: center;
+  justify-content: center;
+}
+.jardin_game_page_wrapper .text_t3 {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.25vw;
+  line-height: 1.67vw;
+  color: #FFFFFF;
+}
+.jardin_game_page_wrapper .jardin_product_info {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+}
+.jardin_game_page_wrapper .jardin_product_info .rounds_counter {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -moz-align-items: center;
+  -ms-align-items: center;
+  -o-align-items: center;
+  -khtml-align-items: center;
+  align-items: center;
+  -webkit-justify-content: center;
+  -moz-justify-content: center;
+  -ms-justify-content: center;
+  -o-justify-content: center;
+  -khtml-justify-content: center;
+  justify-content: center;
+  width: 21.25vw;
+  height: 5.97vw;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 2.78vw;
+  line-height: 2.22vw;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #FFFFFF;
+  background: rgba(13, 13, 13, 0.7);
+  -webkit-flex-shrink: 0;
+  -moz-flex-shrink: 0;
+  -ms-flex-shrink: 0;
+  -o-flex-shrink: 0;
+  -khtml-flex-shrink: 0;
+  flex-shrink: 0;
+}
+.jardin_game_page_wrapper .jardin_product_info .pack_image_wrapper {
+  width: 23.47vw;
+  position: absolute;
+  top: 8.75vw;
+  left: -2.2vw;
+}
+.jardin_game_page_wrapper .jardin_product_info .pack_image_wrapper img {
+  width: 100%;
+  max-width: 100%;
+}
+.jardin_game_page_wrapper .jardin_product_info .pack_description {
+  padding-left: 7.23vw;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.jardin_game_page_wrapper .jardin_product_info .pack_description .coffee_name {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 4.44vw;
+  line-height: 4.44vw;
+  color: #14110E;
+  margin-bottom: 1.67vw;
+}
+.jardin_game_page_wrapper .jardin_product_info .pack_description .coffee_description {
+  font-style: normal;
+  font-weight: normal;
+  color: #14110E;
+  font-size: 1.8vw;
+  line-height: 2.43vw;
+  margin-bottom: 3.1vw;
+}
+.jardin_game_page_wrapper .game_rules_wrapper {
+  padding-left: 28.47vw;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -moz-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  -o-flex-wrap: wrap;
+  -khtml-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-justify-content: space-between;
+  -moz-justify-content: space-between;
+  -ms-justify-content: space-between;
+  -o-justify-content: space-between;
+  -khtml-justify-content: space-between;
+  justify-content: space-between;
+}
+.jardin_game_page_wrapper .game_rules_wrapper .game_rule_title {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 2.22vw;
+  line-height: 2.78vw;
+  color: #FFFFFF;
+}
+.jardin_game_page_wrapper .game_rules_wrapper .game_goals .goals_items_wrapper {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: flex-end;
+  -moz-align-items: flex-end;
+  -ms-align-items: flex-end;
+  -o-align-items: flex-end;
+  -khtml-align-items: flex-end;
+  align-items: flex-end;
+  margin-top: 0.55vw;
+}
+.jardin_game_page_wrapper .game_rules_wrapper .game_goals .goals_items_wrapper .goal_item {
+  width: 5.42vw;
+  margin-right: 1.67vw;
+}
+.jardin_game_page_wrapper .game_rules_wrapper .game_goals .goals_items_wrapper .goal_item .item_image_wrapper {
+  width: 4.44vw;
+  margin: 0 auto 0.55vw;
+}
+.jardin_game_page_wrapper .game_rules_wrapper .game_goals .goals_items_wrapper .goal_item .item_image_wrapper img {
+  width: 100%;
+  max-width: 100%;
+}
+.jardin_game_page_wrapper .game_rules_wrapper .game_goals .goals_items_wrapper .goal_item .goal_name {
+  width: 100%;
+  text-align: center;
+}
+.jardin_game_page_wrapper .game_rules_wrapper .game_rules {
+  width: 22.22vw;
+  margin-left: 1.42vw;
+}
+.jardin_game_page_wrapper .game_rules_wrapper .game_rules .game_rule_title {
+  margin-bottom: 1.04vw;
+}
+.jardin_game_page_wrapper .game_rules_wrapper .game_rules .rules_wrapper .game_rule {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -moz-align-items: center;
+  -ms-align-items: center;
+  -o-align-items: center;
+  -khtml-align-items: center;
+  align-items: center;
+  margin-bottom: 1.67vw;
+}
+.jardin_game_page_wrapper .game_rules_wrapper .game_rules .rules_wrapper .game_rule .rule_icon {
+  margin-right: 1.11vw;
+  width: 1.67vw;
+}
+.jardin_game_page_wrapper .game_rules_wrapper .game_rules .rules_wrapper .game_rule .rule_icon svg {
+  width: 1.67vw;
+  height: auto;
+}
+.jardin_game_page_wrapper .game_rules_wrapper .game_rules .rules_wrapper .game_rule .rule_text {
+  text-align: left;
+  color: #FFFFFF;
+}
+.jardin_game_page_wrapper .game_rules_wrapper .game_complications {
+  margin-top: -5.65vw;
+  max-width: 26.53vw;
+}
+.jardin_game_page_wrapper .game_rules_wrapper .game_complications .game_rule_title {
+  margin-bottom: 0.27vw;
+}
+.jardin_game_page_wrapper .game_rules_wrapper .game_complications .complications_icons_wrapper {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: flex-end;
+  -moz-align-items: flex-end;
+  -ms-align-items: flex-end;
+  -o-align-items: flex-end;
+  -khtml-align-items: flex-end;
+  align-items: flex-end;
+}
+.jardin_game_page_wrapper .game_rules_wrapper .game_complications .complications_icons_wrapper .complication_icon {
+  width: 5.55vw;
+}
+.jardin_game_page_wrapper .game_rules_wrapper .game_complications .complications_icons_wrapper .complication_icon img {
+  width: 100%;
+  max-width: 100%;
+}
+.jardin_game_page_wrapper .game_rules_wrapper .jardin_play_button {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -moz-align-items: center;
+  -ms-align-items: center;
+  -o-align-items: center;
+  -khtml-align-items: center;
+  align-items: center;
+  -webkit-justify-content: center;
+  -moz-justify-content: center;
+  -ms-justify-content: center;
+  -o-justify-content: center;
+  -khtml-justify-content: center;
+  justify-content: center;
+  background: rgba(13, 13, 13, 0.58);
+  width: 13.89vw;
+  height: 4.03vw;
+  cursor: pointer;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.67vw;
+  line-height: 1.67vw;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  margin: 1.04vw 6.25vw 0 0;
+  -webkit-transition: background-color 0.5s ease-in-out;
+  -moz-transition: background-color 0.5s ease-in-out;
+  -ms-transition: background-color 0.5s ease-in-out;
+  -o-transition: background-color 0.5s ease-in-out;
+  transition: background-color 0.5s ease-in-out;
+}
+.jardin_game_page_wrapper .game_rules_wrapper .jardin_play_button:hover {
+  background: rgba(13, 13, 13, 0.85);
+}
+.jardin_game_page_wrapper .game_rules_wrapper .jardin_play_button .arrow {
+  width: 3.33vw;
+  margin-left: 1.11vw;
+}
+.jardin_game_page_wrapper .game_rules_wrapper .jardin_play_button .arrow img {
+  width: 100%;
+  max-width: 100%;
+}
+.jardin_game_page_wrapper .game_rules_wrapper .homepage_link_wrapper {
+  margin: 1.66vw 6.25vw 0 auto;
+  width: 13.89vw;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -moz-align-items: center;
+  -ms-align-items: center;
+  -o-align-items: center;
+  -khtml-align-items: center;
+  align-items: center;
+  -webkit-justify-content: flex-start;
+  -moz-justify-content: flex-start;
+  -ms-justify-content: flex-start;
+  -o-justify-content: flex-start;
+  -khtml-justify-content: flex-start;
+  justify-content: flex-start;
+}
+.jardin_game_page_wrapper .game_rules_wrapper .homepage_link_wrapper a {
+  text-decoration: none;
+  border-bottom: 1px solid #ffffff;
+  color: #ffffff;
+  font-family: Circe;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.53vw;
+  line-height: 1.67vw;
+}
+.jardin_game_page_wrapper.game_page_round_1 {
+  background-image: url("../img/round_1/bg_1.jpg");
+}
+.jardin_game_page_wrapper.game_page_round_2 {
+  background-image: url("../img/round_2/bg_2.jpg");
+}
+.jardin_game_page_wrapper.game_page_round_2 .jardin_product_info .rounds_counter {
+  background: #A6905D;
+  color: #1F1F1F;
+}
+.jardin_game_page_wrapper.game_page_round_2 .jardin_product_info .pack_description .coffee_name {
+  color: #ffffff;
+}
+.jardin_game_page_wrapper.game_page_round_2 .jardin_product_info .pack_description .coffee_description {
+  color: #ffffff;
+  margin-bottom: 2vw;
+}
+.jardin_game_page_wrapper.game_page_round_2 .game_rules_wrapper .game_goals .goals_items_wrapper {
+  margin-top: 1.38vw;
+}
+.jardin_game_page_wrapper.game_page_round_2 .game_rules_wrapper .game_rules .rules_wrapper .game_rule .rule_icon {
+  opacity: 0.48;
+}
+.jardin_game_page_wrapper.game_page_round_2 .game_rules_wrapper .game_rules .rules_wrapper .game_rule .rule_icon svg circle {
+  stroke: white;
+}
+.jardin_game_page_wrapper.game_page_round_2 .game_rules_wrapper .game_rules .rules_wrapper .game_rule .rule_icon svg circle:last-child {
+  fill: #ffffff;
+}
+.jardin_game_page_wrapper.game_page_round_2 .game_rules_wrapper .game_rules .rules_wrapper .game_rule .rule_icon svg path {
+  fill: white;
+}
+.jardin_game_page_wrapper.game_page_round_2 .game_rules_wrapper .jardin_play_button {
+  background: rgba(255, 255, 255, 0.17);
+  color: #FFFFFF;
+}
+.jardin_game_page_wrapper.game_page_round_2 .game_rules_wrapper .jardin_play_button:hover {
+  background: rgba(255, 255, 255, 0.27);
+}
+.jardin_game_page_wrapper.game_page_round_2 .game_rules_wrapper .homepage_link_wrapper {
+  margin: 0.66vw 6.25vw 0 auto;
+}
+.jardin_game_page_wrapper.game_page_round_3 {
+  background-image: url("../img/round_3/bg_3.jpg");
+}
+.jardin_game_page_wrapper.game_page_round_3 .jardin_product_info .rounds_counter {
+  background: #47BCF1;
+  color: #1F1F1F;
+}
+.jardin_game_page_wrapper.game_page_round_3 .jardin_product_info .pack_description .coffee_name {
+  color: #ffffff;
+}
+.jardin_game_page_wrapper.game_page_round_3 .jardin_product_info .pack_description .coffee_description {
+  color: #ffffff;
+  margin-bottom: 2vw;
+}
+.jardin_game_page_wrapper.game_page_round_3 .game_rules_wrapper .game_goals .goals_items_wrapper {
+  margin-top: 1.6vw;
+  -webkit-align-items: flex-start;
+  -moz-align-items: flex-start;
+  -ms-align-items: flex-start;
+  -o-align-items: flex-start;
+  -khtml-align-items: flex-start;
+  align-items: flex-start;
+}
+.jardin_game_page_wrapper.game_page_round_3 .game_rules_wrapper .game_rules .rules_wrapper .game_rule .rule_icon {
+  opacity: 0.48;
+}
+.jardin_game_page_wrapper.game_page_round_3 .game_rules_wrapper .game_rules .rules_wrapper .game_rule .rule_icon svg circle {
+  stroke: #14110e;
+}
+.jardin_game_page_wrapper.game_page_round_3 .game_rules_wrapper .game_rules .rules_wrapper .game_rule .rule_icon svg circle:last-child {
+  fill: #14110e;
+}
+.jardin_game_page_wrapper.game_page_round_3 .game_rules_wrapper .game_rules .rules_wrapper .game_rule .rule_icon svg path {
+  fill: #14110e;
+}
+.jardin_game_page_wrapper.game_page_round_3 .game_rules_wrapper .game_complications {
+  max-width: 15.53vw;
+}
+.jardin_game_page_wrapper.game_page_round_3 .game_rules_wrapper .game_complications .complications_icons_wrapper {
+  margin-top: 1.11vw;
+}
+.jardin_game_page_wrapper.game_page_round_3 .game_rules_wrapper .jardin_play_button {
+  background: rgba(13, 13, 13, 0.58);
+  color: #FFFFFF;
+}
+.jardin_game_page_wrapper.game_page_round_3 .game_rules_wrapper .jardin_play_button:hover {
+  background: rgba(13, 13, 13, 0.78);
+}
+.jardin_game_page_wrapper.game_page_round_3 .game_rules_wrapper .homepage_link_wrapper {
+  margin: -0.34vw 6.25vw 0 auto;
+}
+
+.jardin_game_wrapper {
+  width: 100%;
+  min-height: 100vh;
+  background-position: center top;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.jardin_game_wrapper .points_counter {
+  position: absolute;
+  top: 3.33vw;
+  left: 3.33vw;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -moz-align-items: center;
+  -ms-align-items: center;
+  -o-align-items: center;
+  -khtml-align-items: center;
+  align-items: center;
+  user-select: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+}
+.jardin_game_wrapper .points_counter .coffee_icon {
+  height: 4.44vw;
+  width: auto;
+}
+.jardin_game_wrapper .points_counter .coffee_icon img {
+  max-height: 100%;
+  height: 100%;
+}
+.jardin_game_wrapper .points_counter .points {
+  font-family: "ToJapan";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 3.89vw;
+  line-height: 4.44vw;
+  color: #52461A;
+  margin: 0 1.11vw;
+}
+.jardin_game_wrapper .game_timer {
+  position: absolute;
+  top: 3.33vw;
+  right: 3.33vw;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -moz-align-items: center;
+  -ms-align-items: center;
+  -o-align-items: center;
+  -khtml-align-items: center;
+  align-items: center;
+  user-select: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+}
+.jardin_game_wrapper .game_timer .timer_icon {
+  height: 4.44vw;
+  width: auto;
+}
+.jardin_game_wrapper .game_timer .timer_icon img {
+  max-height: 100%;
+  height: 100%;
+}
+.jardin_game_wrapper .game_timer .timer {
+  font-family: "ToJapan";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 3.89vw;
+  line-height: 4.44vw;
+  color: #52461A;
+  margin: 0 1.11vw;
+}
+.jardin_game_wrapper .game_lives {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -moz-flex-direction: column;
+  -ms-flex-direction: column;
+  -o-flex-direction: column;
+  -khtml-flex-direction: column;
+  flex-direction: column;
+  position: absolute;
+  top: 50%;
+  left: 4.44vw;
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+.jardin_game_wrapper .game_lives .live {
+  width: 3.19vw;
+  height: 3.19vw;
+  background-image: url("../img/live.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: 1.11vw 0;
+  opacity: 0.4;
+}
+.jardin_game_wrapper .game_lives .live.lost {
+  opacity: 1;
+}
+.jardin_game_wrapper .jardin_cup {
+  position: absolute;
+  z-index: 25;
+  bottom: 0;
+  background-image: url("../img/game_cup.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: bottom center;
+  width: 19.44vw;
+  height: 9.86vw;
+  left: 50%;
+  cursor: pointer;
+}
+.jardin_game_wrapper .jardin_cup .jardin_cup_inner {
+  width: 15.8vw;
+  height: 100%;
+}
+.jardin_game_wrapper .jardin_cup.start {
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+  transform: translateX(-50%);
+}
+.jardin_game_wrapper .move_icon {
+  width: 12.5vw;
+  height: 8.33vw;
+  position: absolute;
+  background-image: url("../img/move_icon.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  bottom: 3.33vw;
+  right: 3.33vw;
+}
+.jardin_game_wrapper .game_element {
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  position: absolute;
+  z-index: 20;
+}
+.jardin_game_wrapper .game_element.apple {
+  width: 3.96vw;
+  height: 5.14vw;
+  background-image: url("../img/round_1/game_icons/apple.svg");
+}
+.jardin_game_wrapper .game_element.berry {
+  width: 4.03vw;
+  height: 3.68vw;
+  background-image: url("../img/round_1/game_icons/berry.svg");
+}
+.jardin_game_wrapper .game_element.peach {
+  width: 5.28vw;
+  height: 5.97vw;
+  background-image: url("../img/round_1/game_icons/peach.svg");
+}
+.jardin_game_wrapper .game_element.pear {
+  width: 3.47vw;
+  height: 8.89vw;
+  background-image: url("../img/round_1/game_icons/pear.svg");
+}
+.jardin_game_wrapper .game_element.avocado {
+  width: 3.54vw;
+  height: 5.14vw;
+  background-image: url("../img/round_1/game_icons/avocado.png");
+}
+.jardin_game_wrapper .game_element.banana {
+  width: 5.14vw;
+  height: 4.67vw;
+  background-image: url("../img/round_1/game_icons/banana.png");
+}
+.jardin_game_wrapper .game_element.strawberry {
+  width: 3.89vw;
+  height: 5.14vw;
+  background-image: url("../img/round_1/game_icons/strawberry.png");
+}
+.jardin_game_wrapper .game_element.candy {
+  width: 7.08vw;
+  height: 4.02vw;
+  background-image: url("../img/round_1/game_icons/candy.png");
+}
+.jardin_game_wrapper .game_element.chocolate {
+  width: 6.11vw;
+  height: 5.14vw;
+  background-image: url("../img/round_2/game_icons/chocolate.svg");
+}
+.jardin_game_wrapper .game_element.caramel {
+  width: 5.14vw;
+  height: 5.14vw;
+  background-image: url("../img/round_2/game_icons/caramel.svg");
+}
+.jardin_game_wrapper .game_element.almond {
+  width: 4.17vw;
+  height: 5.14vw;
+  background-image: url("../img/round_2/game_icons/almond.svg");
+}
+.jardin_game_wrapper .game_element.vanilla {
+  width: 5.76vw;
+  height: 6.11vw;
+  background-image: url("../img/round_2/game_icons/vanilla.svg");
+}
+.jardin_game_wrapper .game_element.minus10 {
+  width: 7.43vw;
+  height: 7.15vw;
+  background-image: url("../img/round_2/game_icons/minus10.png");
+}
+.jardin_game_wrapper .game_element.plus10 {
+  width: 7.43vw;
+  height: 7.15vw;
+  background-image: url("../img/round_2/game_icons/plus10.png");
+}
+.jardin_game_wrapper .game_element.cupcake {
+  width: 3.47vw;
+  height: 5.14vw;
+  background-image: url("../img/round_2/game_icons/cupcake.png");
+}
+.jardin_game_wrapper .game_element.orange {
+  width: 5.07vw;
+  height: 5.14vw;
+  background-image: url("../img/round_2/game_icons/orange.png");
+}
+.jardin_game_wrapper .game_element.pine {
+  width: 6.25vw;
+  height: 4.93vw;
+  background-image: url("../img/round_2/game_icons/pine_cone.png");
+}
+.jardin_game_wrapper .game_element.rose {
+  width: 2.36vw;
+  height: 5.7vw;
+  background-image: url("../img/round_2/game_icons/rose.png");
+}
+.jardin_game_wrapper .game_element.grapefruit {
+  width: 5.76vw;
+  height: 6.11vw;
+  background-image: url("../img/round_3/game_icons/grapftuit.png");
+}
+.jardin_game_wrapper .game_element.points_x2 {
+  width: 4.028vw;
+  height: 5.97vw;
+  background-image: url("../img/round_3/game_icons/points_x2.png");
+}
+.jardin_game_wrapper .game_element.point_2 {
+  width: 5.9vw;
+  height: 6.14vw;
+  background-image: url("../img/round_3/game_icons/points_2.png");
+}
+.jardin_game_wrapper .game_element.clove {
+  width: 5.14vw;
+  height: 5.14vw;
+  background-image: url("../img/round_3/game_icons/clove.png");
+}
+.jardin_game_wrapper .game_element.grape {
+  width: 5.14vw;
+  height: 5.14vw;
+  background-image: url("../img/round_3/game_icons/grape.png");
+}
+.jardin_game_wrapper .game_element.cherry {
+  width: 4.79vw;
+  height: 5.14vw;
+  background-image: url("../img/round_3/game_icons/cherry.png");
+}
+.jardin_game_wrapper .game_element.pepper {
+  width: 4.375vw;
+  height: 5.76vw;
+  background-image: url("../img/round_3/game_icons/pepper.png");
+}
+.jardin_game_wrapper .mobile_game_popup {
+  position: fixed;
+  z-index: 50;
+  width: 100vw;
+  height: 100vh;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  background: rgba(13, 13, 13, 0.65);
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+  display: -webkit-box;
+  display: -moz-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -moz-flex-direction: column;
+  -ms-flex-direction: column;
+  -o-flex-direction: column;
+  -khtml-flex-direction: column;
+  flex-direction: column;
+  -webkit-align-items: center;
+  -moz-align-items: center;
+  -ms-align-items: center;
+  -o-align-items: center;
+  -khtml-align-items: center;
+  align-items: center;
+  -webkit-justify-content: center;
+  -moz-justify-content: center;
+  -ms-justify-content: center;
+  -o-justify-content: center;
+  -khtml-justify-content: center;
+  justify-content: center;
+}
+.jardin_game_wrapper .mobile_game_popup .popup_text {
+  font-family: "ToJapan";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 24px;
+  text-align: center;
+  color: #FFFFFF;
+  max-width: 430px;
+  margin-bottom: 32px;
+}
+.jardin_game_wrapper .mobile_game_popup .popup_icon {
+  width: 88px;
+}
+.jardin_game_wrapper .mobile_game_popup .popup_icon img {
+  max-width: 100%;
+  width: 100%;
+}
+.jardin_game_wrapper .game_over_popup {
+  position: fixed;
+  z-index: 50;
+  width: 100vw;
+  height: 100vh;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  background: rgba(13, 13, 13, 0.65);
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+  display: -webkit-box;
+  display: -moz-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -moz-flex-direction: column;
+  -ms-flex-direction: column;
+  -o-flex-direction: column;
+  -khtml-flex-direction: column;
+  flex-direction: column;
+  -webkit-align-items: center;
+  -moz-align-items: center;
+  -ms-align-items: center;
+  -o-align-items: center;
+  -khtml-align-items: center;
+  align-items: center;
+  -webkit-justify-content: center;
+  -moz-justify-content: center;
+  -ms-justify-content: center;
+  -o-justify-content: center;
+  -khtml-justify-content: center;
+  justify-content: center;
+}
+.jardin_game_wrapper .game_over_popup .game_over_popup_inner {
+  font-family: "Circe";
+  display: -webkit-box;
+  display: -moz-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -moz-flex-direction: column;
+  -ms-flex-direction: column;
+  -o-flex-direction: column;
+  -khtml-flex-direction: column;
+  flex-direction: column;
+  -webkit-align-items: center;
+  -moz-align-items: center;
+  -ms-align-items: center;
+  -o-align-items: center;
+  -khtml-align-items: center;
+  align-items: center;
+  -webkit-justify-content: center;
+  -moz-justify-content: center;
+  -ms-justify-content: center;
+  -o-justify-content: center;
+  -khtml-justify-content: center;
+  justify-content: center;
+  -webkit-flex-direction: column;
+  -moz-flex-direction: column;
+  -ms-flex-direction: column;
+  -o-flex-direction: column;
+  -khtml-flex-direction: column;
+  flex-direction: column;
+}
+.jardin_game_wrapper .game_over_popup .game_over_popup_inner .popup_title {
+  font-family: "ToJapan";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 48px;
+  line-height: 64px;
+  text-align: center;
+  color: #FFFFFF;
+  margin-bottom: 32px;
+}
+.jardin_game_wrapper .game_over_popup .game_over_popup_inner .game_points {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 32px;
+  line-height: 40px;
+  text-align: center;
+  color: #C3C3C3;
+  margin-bottom: 48px;
+}
+.jardin_game_wrapper .game_over_popup .game_over_popup_inner .jardin_play_again {
+  width: 227px;
+  height: 58px;
+  cursor: pointer;
+  margin: 0 auto 24px;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -moz-align-items: center;
+  -ms-align-items: center;
+  -o-align-items: center;
+  -khtml-align-items: center;
+  align-items: center;
+  -webkit-justify-content: center;
+  -moz-justify-content: center;
+  -ms-justify-content: center;
+  -o-justify-content: center;
+  -khtml-justify-content: center;
+  justify-content: center;
+  background: #887C47;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 24px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  -webkit-transition: box-shadow 0.5s ease-in-out;
+  -moz-transition: box-shadow 0.5s ease-in-out;
+  -ms-transition: box-shadow 0.5s ease-in-out;
+  -o-transition: box-shadow 0.5s ease-in-out;
+  transition: box-shadow 0.5s ease-in-out;
+}
+.jardin_game_wrapper .game_over_popup .game_over_popup_inner .jardin_play_again:hover {
+  box-shadow: 0px 0px 10px #9A8D51;
+}
+.jardin_game_wrapper .game_over_popup .game_over_popup_inner .jardin_play_again:active, .jardin_game_wrapper .game_over_popup .game_over_popup_inner .jardin_play_again:focus {
+  box-shadow: inset 0px 0px 20px rgba(20, 17, 14, 0.4);
+}
+.jardin_game_wrapper .game_over_popup .game_over_popup_inner .homepage_link {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 24px;
+  text-decoration: none;
+  color: #C3C3C3;
+  border-bottom: 1px solid #C3C3C3;
+  opacity: 0.6;
+  text-align: center;
+  -webkit-transition: opacity 0.5s ease-in-out;
+  -moz-transition: opacity 0.5s ease-in-out;
+  -ms-transition: opacity 0.5s ease-in-out;
+  -o-transition: opacity 0.5s ease-in-out;
+  transition: opacity 0.5s ease-in-out;
+}
+.jardin_game_wrapper .game_over_popup .game_over_popup_inner .homepage_link:hover {
+  opacity: 0.8;
+}
+.jardin_game_wrapper .game_over_popup .jardin_popup_info_block {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-justify-content: center;
+  -moz-justify-content: center;
+  -ms-justify-content: center;
+  -o-justify-content: center;
+  -khtml-justify-content: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -moz-align-items: center;
+  -ms-align-items: center;
+  -o-align-items: center;
+  -khtml-align-items: center;
+  align-items: center;
+  color: #ffffff;
+  background: #A49034;
+  height: 48px;
+}
+.jardin_game_wrapper .game_over_popup .jardin_popup_info_block .jardin_popup_title {
+  font-size: 24px;
+  line-height: 24px;
+  font-weight: bold;
+  font-family: "Circe";
+  padding-right: 8px;
+}
+.jardin_game_wrapper .game_over_popup .jardin_popup_info_block .jardin_popup_text {
+  font-family: roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 24px;
+}
+.jardin_game_wrapper .game_over_popup .jardin_popup_info_block .jardin_popup_link {
+  color: #ffffff;
+  text-decoration: none;
+  border-bottom: 1px solid #ffffff;
+}
+.jardin_game_wrapper.round_1_wrapper {
+  background-image: url("../img/round_1/game_bg_1.jpg");
+}
+.jardin_game_wrapper.round_2_wrapper {
+  background-image: url("../img/round_2/game_bg_2.jpg");
+}
+.jardin_game_wrapper.round_2_wrapper .points_counter .points {
+  color: #C07541;
+}
+.jardin_game_wrapper.round_2_wrapper .game_timer .timer {
+  color: #C07541;
+}
+.jardin_game_wrapper.round_3_wrapper {
+  background-image: url("../img/round_3/game_bg_3.jpg");
+}
+.jardin_game_wrapper.round_3_wrapper .points_counter .points {
+  color: #015373;
+}
+.jardin_game_wrapper.round_3_wrapper .game_timer .timer {
+  color: #015373;
+}
+.jardin_game_wrapper.round_3_wrapper .game_lives .live {
+  background-image: url("../img/live_blue.svg");
+}
+
+@media screen and (max-width: 1439px) {
+  .jardin_game_page_wrapper {
+    padding: 3.28vw 4.28vw;
+  }
+  .jardin_game_page_wrapper .text_t3 {
+    font-size: 1.56vw;
+    line-height: 2.34vw;
+  }
+  .jardin_game_page_wrapper .jardin_product_info .rounds_counter {
+    width: 23.44vw;
+    height: 7.3vw;
+    font-size: 3.125vw;
+    line-height: 3.125vw;
+  }
+  .jardin_game_page_wrapper .jardin_product_info .pack_image_wrapper {
+    width: 30.66vw;
+    position: absolute;
+    top: 10.94vw;
+    left: -4.97vw;
+  }
+  .jardin_game_page_wrapper .jardin_product_info .pack_description {
+    padding-left: 7.81vw;
+  }
+  .jardin_game_page_wrapper .jardin_product_info .pack_description .coffee_name {
+    font-size: 5.47vw;
+    line-height: 5.47vw;
+    margin-bottom: 1.56vw;
+  }
+  .jardin_game_page_wrapper .jardin_product_info .pack_description .coffee_description {
+    font-size: 2vw;
+    line-height: 2.73vw;
+    margin-bottom: 3.32vw;
+  }
+  .jardin_game_page_wrapper .game_rules_wrapper {
+    padding-left: 31.25vw;
+  }
+  .jardin_game_page_wrapper .game_rules_wrapper .game_rule_title {
+    font-size: 2.34vw;
+    line-height: 3.125vw;
+  }
+  .jardin_game_page_wrapper .game_rules_wrapper .game_goals .goals_items_wrapper {
+    width: 19.92vw;
+    -webkit-flex-wrap: wrap;
+    -moz-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    -o-flex-wrap: wrap;
+    -khtml-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-top: 0.55vw;
+  }
+  .jardin_game_page_wrapper .game_rules_wrapper .game_goals .goals_items_wrapper .goal_item {
+    width: 7.62vw;
+    margin-right: 2.34vw;
+    margin-bottom: 0.58vw;
+  }
+  .jardin_game_page_wrapper .game_rules_wrapper .game_goals .goals_items_wrapper .goal_item .item_image_wrapper {
+    width: 5.86vw;
+    margin: 0 auto 0.78vw;
+  }
+  .jardin_game_page_wrapper .game_rules_wrapper .game_goals .goals_items_wrapper .goal_item .goal_name {
+    width: 100%;
+    text-align: center;
+  }
+  .jardin_game_page_wrapper .game_rules_wrapper .game_rules {
+    width: 26.85vw;
+    margin-left: 1.42vw;
+  }
+  .jardin_game_page_wrapper .game_rules_wrapper .game_rules .game_rule_title {
+    margin-bottom: 1.04vw;
+  }
+  .jardin_game_page_wrapper .game_rules_wrapper .game_rules .rules_wrapper .game_rule {
+    margin-bottom: 3.34vw;
+  }
+  .jardin_game_page_wrapper .game_rules_wrapper .game_rules .rules_wrapper .game_rule .rule_icon {
+    margin-right: 1.56vw;
+    width: 2.34vw;
+  }
+  .jardin_game_page_wrapper .game_rules_wrapper .game_rules .rules_wrapper .game_rule .rule_icon svg {
+    width: 2.34vw;
+    height: auto;
+  }
+  .jardin_game_page_wrapper .game_rules_wrapper .game_complications {
+    margin-top: 1.17vw;
+    max-width: 27.7vw;
+  }
+  .jardin_game_page_wrapper .game_rules_wrapper .game_complications .game_rule_title {
+    margin-bottom: 0.39vw;
+  }
+  .jardin_game_page_wrapper .game_rules_wrapper .game_complications .complications_icons_wrapper .complication_icon {
+    width: 7.81vw;
+  }
+  .jardin_game_page_wrapper .game_rules_wrapper .jardin_play_button {
+    width: 19.53vw;
+    height: 5.66vw;
+    font-size: 2.34vw;
+    line-height: 2.34vw;
+    margin: 0.83vw 3.61vw 0;
+  }
+  .jardin_game_page_wrapper .game_rules_wrapper .jardin_play_button .arrow {
+    width: 4.69vw;
+    margin-left: 1.56vw;
+  }
+  .jardin_game_page_wrapper .game_rules_wrapper .homepage_link_wrapper {
+    margin: -0.58vw 3.61vw 0 auto;
+    width: 19.53vw;
+  }
+  .jardin_game_page_wrapper .game_rules_wrapper .homepage_link_wrapper a {
+    font-size: 2.15vw;
+    line-height: 2.34vw;
+  }
+  .jardin_game_page_wrapper.game_page_round_2 .jardin_product_info .pack_description .coffee_description {
+    margin-bottom: 2.5vw;
+  }
+  .jardin_game_page_wrapper.game_page_round_2 .game_rules_wrapper .game_goals .goals_items_wrapper {
+    margin-top: 1.38vw;
+  }
+  .jardin_game_page_wrapper.game_page_round_2 .game_rules_wrapper .homepage_link_wrapper {
+    margin: -16vw 3.61vw 0 auto;
+  }
+  .jardin_game_page_wrapper.game_page_round_3 .jardin_product_info .pack_description .coffee_description {
+    margin-bottom: 2.5vw;
+  }
+  .jardin_game_page_wrapper.game_page_round_3 .game_rules_wrapper .game_goals .goals_items_wrapper {
+    margin-top: 1.46vw;
+  }
+  .jardin_game_page_wrapper.game_page_round_3 .game_rules_wrapper .game_complications {
+    max-width: 18.4vw;
+  }
+  .jardin_game_page_wrapper.game_page_round_3 .game_rules_wrapper .game_complications .complications_icons_wrapper {
+    margin-top: 0.78vw;
+  }
+  .jardin_game_page_wrapper.game_page_round_3 .game_rules_wrapper .homepage_link_wrapper {
+    margin: -16vw 3.61vw 0 auto;
+  }
+
+  .jardin_game_wrapper {
+    background-position: left center;
+  }
+  .jardin_game_wrapper .points_counter {
+    top: 4.69vw;
+    left: 4.69vw;
+  }
+  .jardin_game_wrapper .points_counter .coffee_icon {
+    height: 5.47vw;
+  }
+  .jardin_game_wrapper .points_counter .points {
+    font-size: 4.69vw;
+    line-height: 5.47vw;
+    margin: 0 1.56vw;
+  }
+  .jardin_game_wrapper .game_timer {
+    top: 4.69vw;
+    right: 4.69vw;
+  }
+  .jardin_game_wrapper .game_timer .timer_icon {
+    height: 5.47vw;
+  }
+  .jardin_game_wrapper .game_timer .timer {
+    font-size: 4.69vw;
+    line-height: 5.47vw;
+    margin: 0 1.56vw;
+  }
+  .jardin_game_wrapper .game_lives {
+    left: 4.69vw;
+  }
+  .jardin_game_wrapper .game_lives .live {
+    width: 4.49vw;
+    height: 4.49vw;
+    margin: 1.56vw 0;
+  }
+  .jardin_game_wrapper .jardin_cup {
+    width: 24.7vw;
+    height: 13.08vw;
+  }
+  .jardin_game_wrapper .jardin_cup .jardin_cup_inner {
+    width: 20vw;
+  }
+  .jardin_game_wrapper .move_icon {
+    width: 13.28vw;
+    height: 8.8vw;
+    bottom: 4.69vw;
+    right: 4.69vw;
+  }
+  .jardin_game_wrapper .game_element.apple {
+    width: 4.49vw;
+    height: 5.86vw;
+  }
+  .jardin_game_wrapper .game_element.berry {
+    width: 4.78vw;
+    height: 4.3vw;
+  }
+  .jardin_game_wrapper .game_element.peach {
+    width: 5.66vw;
+    height: 6.45vw;
+  }
+  .jardin_game_wrapper .game_element.pear {
+    width: 4vw;
+    height: 10.25vw;
+  }
+  .jardin_game_wrapper .game_element.avocado {
+    width: 4.49vw;
+    height: 6.45vw;
+  }
+  .jardin_game_wrapper .game_element.banana {
+    width: 6.45vw;
+    height: 5.86vw;
+  }
+  .jardin_game_wrapper .game_element.strawberry {
+    width: 4.88vw;
+    height: 6.45vw;
+  }
+  .jardin_game_wrapper .game_element.candy {
+    width: 8.79vw;
+    height: 4.98vw;
+  }
+  .jardin_game_wrapper .game_element.chocolate {
+    width: 7.62vw;
+    height: 6.44vw;
+  }
+  .jardin_game_wrapper .game_element.caramel {
+    width: 6.05vw;
+    height: 6.05vw;
+  }
+  .jardin_game_wrapper .game_element.almond {
+    width: 5.27vw;
+    height: 6.44vw;
+  }
+  .jardin_game_wrapper .game_element.vanilla {
+    width: 6.64vw;
+    height: 7vw;
+  }
+  .jardin_game_wrapper .game_element.minus10 {
+    width: 9.375vw;
+    height: 9vw;
+  }
+  .jardin_game_wrapper .game_element.plus10 {
+    width: 9.375vw;
+    height: 9vw;
+  }
+  .jardin_game_wrapper .game_element.cupcake {
+    width: 4.39vw;
+    height: 6.44vw;
+  }
+  .jardin_game_wrapper .game_element.orange {
+    width: 6.35vw;
+    height: 6.44vw;
+  }
+  .jardin_game_wrapper .game_element.pine {
+    width: 7.71vw;
+    height: 6.05vw;
+  }
+  .jardin_game_wrapper .game_element.rose {
+    width: 2.383vw;
+    height: 6.83vw;
+  }
+  .jardin_game_wrapper .game_element.grapefruit {
+    width: 7.03vw;
+    height: 6.05vw;
+  }
+  .jardin_game_wrapper .game_element.points_x2 {
+    width: 4.78vw;
+    height: 7.03vw;
+  }
+  .jardin_game_wrapper .game_element.point_2 {
+    width: 6.64vw;
+    height: 7.12vw;
+  }
+  .jardin_game_wrapper .game_element.clove {
+    width: 6.44vw;
+    height: 6.44vw;
+  }
+  .jardin_game_wrapper .game_element.grape {
+    width: 6.44vw;
+    height: 6.44vw;
+  }
+  .jardin_game_wrapper .game_element.cherry {
+    width: 6.05vw;
+    height: 6.44vw;
+  }
+  .jardin_game_wrapper .game_element.pepper {
+    width: 5.17vw;
+    height: 6.8vw;
+  }
+}
+@media screen and (max-width: 1023px) {
+  .jardin_game_page_wrapper {
+    padding: 4.69vw;
+  }
+  .jardin_game_page_wrapper .text_t3 {
+    font-size: 2.34vw;
+    line-height: 3.125vw;
+  }
+  .jardin_game_page_wrapper .jardin_product_info {
+    -webkit-flex-direction: column;
+    -moz-flex-direction: column;
+    -ms-flex-direction: column;
+    -o-flex-direction: column;
+    -khtml-flex-direction: column;
+    flex-direction: column;
+    padding-left: 39.06vw;
+  }
+  .jardin_game_page_wrapper .jardin_product_info .rounds_counter {
+    width: 26.56vw;
+    height: 8.33vw;
+    font-size: 3.9vw;
+    line-height: 3.9vw;
+    margin-bottom: 5.2vw;
+  }
+  .jardin_game_page_wrapper .jardin_product_info .pack_image_wrapper {
+    width: 35.42vw;
+    top: 0;
+    left: -4vw;
+  }
+  .jardin_game_page_wrapper .jardin_product_info .pack_description {
+    padding-left: 0;
+  }
+  .jardin_game_page_wrapper .jardin_product_info .pack_description .coffee_name {
+    font-size: 7.29vw;
+    line-height: 8.33vw;
+    margin-bottom: 2.08vw;
+  }
+  .jardin_game_page_wrapper .jardin_product_info .pack_description .coffee_description {
+    font-size: 2.86vw;
+    line-height: 3.9vw;
+    margin-bottom: 8vw;
+  }
+  .jardin_game_page_wrapper .game_rules_wrapper {
+    padding-left: 0;
+  }
+  .jardin_game_page_wrapper .game_rules_wrapper .game_rule_title {
+    font-size: 3.125vw;
+    line-height: 4.17vw;
+  }
+  .jardin_game_page_wrapper .game_rules_wrapper .game_goals .goals_items_wrapper {
+    width: 44.79vw;
+    margin-top: 1.04vw;
+  }
+  .jardin_game_page_wrapper .game_rules_wrapper .game_goals .goals_items_wrapper .goal_item {
+    width: 10.15vw;
+    margin-right: 1.04vw;
+    margin-bottom: 0;
+  }
+  .jardin_game_page_wrapper .game_rules_wrapper .game_goals .goals_items_wrapper .goal_item .item_image_wrapper {
+    width: 7.81vw;
+    margin: 0 auto 1.04vw;
+  }
+  .jardin_game_page_wrapper .game_rules_wrapper .game_rules {
+    width: 36.46vw;
+  }
+  .jardin_game_page_wrapper .game_rules_wrapper .game_rules .game_rule_title {
+    margin-bottom: 2.08vw;
+  }
+  .jardin_game_page_wrapper .game_rules_wrapper .game_rules .rules_wrapper .game_rule {
+    margin-bottom: 2.08vw;
+  }
+  .jardin_game_page_wrapper .game_rules_wrapper .game_rules .rules_wrapper .game_rule .rule_icon {
+    margin-right: 2.08vw;
+    width: 3.125vw;
+  }
+  .jardin_game_page_wrapper .game_rules_wrapper .game_rules .rules_wrapper .game_rule .rule_icon svg {
+    width: 3.125vw;
+  }
+  .jardin_game_page_wrapper .game_rules_wrapper .game_complications {
+    margin-top: -7.81vw;
+    max-width: 29.8vw;
+  }
+  .jardin_game_page_wrapper .game_rules_wrapper .game_complications .game_rule_title {
+    margin-bottom: 2.08vw;
+  }
+  .jardin_game_page_wrapper .game_rules_wrapper .game_complications .complications_icons_wrapper .complication_icon {
+    width: 10.81vw;
+  }
+  .jardin_game_page_wrapper .game_rules_wrapper .jardin_play_button {
+    width: 26.04vw;
+    height: 7.55vw;
+    font-size: 3.125vw;
+    line-height: 3.125vw;
+    margin: 3.125vw 5.2vw 0 auto;
+  }
+  .jardin_game_page_wrapper .game_rules_wrapper .jardin_play_button .arrow {
+    width: 6.25vw;
+    margin-left: 2.08vw;
+  }
+  .jardin_game_page_wrapper .game_rules_wrapper .homepage_link_wrapper {
+    margin: 3.125vw 5.2vw 0 auto;
+    width: 26.04vw;
+  }
+  .jardin_game_page_wrapper .game_rules_wrapper .homepage_link_wrapper a {
+    font-size: 2.86vw;
+    line-height: 3.125vw;
+  }
+  .jardin_game_page_wrapper.game_page_round_2 .jardin_product_info .pack_description .coffee_description {
+    margin-bottom: 5.81vw;
+  }
+  .jardin_game_page_wrapper.game_page_round_2 .game_rules_wrapper .game_goals .goals_items_wrapper {
+    margin-top: 3vw;
+  }
+  .jardin_game_page_wrapper.game_page_round_2 .game_rules_wrapper .game_complications {
+    max-width: 50vw;
+  }
+  .jardin_game_page_wrapper.game_page_round_2 .game_rules_wrapper .game_complications .complications_icons_wrapper {
+    margin-top: 1.56vw;
+  }
+  .jardin_game_page_wrapper.game_page_round_2 .game_rules_wrapper .homepage_link_wrapper {
+    margin: -5.73vw 5.2vw 0 auto;
+  }
+  .jardin_game_page_wrapper.game_page_round_3 .jardin_product_info .pack_description .coffee_description {
+    margin-bottom: 7.71vw;
+  }
+  .jardin_game_page_wrapper.game_page_round_3 .game_rules_wrapper .game_goals .goals_items_wrapper {
+    margin-top: 3.25vw;
+  }
+  .jardin_game_page_wrapper.game_page_round_3 .game_rules_wrapper .game_complications {
+    max-width: 28.4vw;
+  }
+  .jardin_game_page_wrapper.game_page_round_3 .game_rules_wrapper .game_complications .complications_icons_wrapper {
+    margin-top: 3vw;
+  }
+  .jardin_game_page_wrapper.game_page_round_3 .game_rules_wrapper .homepage_link_wrapper {
+    margin: -9vw 5.2vw 0 auto;
+  }
+}
+@media screen and (max-width: 812px) {
+  .jardin_game_wrapper .points_counter {
+    top: 3.94vw;
+    left: 3.94vw;
+  }
+  .jardin_game_wrapper .points_counter .coffee_icon {
+    height: 3.94vw;
+  }
+  .jardin_game_wrapper .points_counter .points {
+    font-size: 2.95vw;
+    line-height: 3.94vw;
+    margin: 0 0.98vw;
+  }
+  .jardin_game_wrapper .game_timer {
+    top: 3.94vw;
+    right: 3.94vw;
+  }
+  .jardin_game_wrapper .game_timer .timer_icon {
+    height: 3.94vw;
+  }
+  .jardin_game_wrapper .game_timer .timer {
+    font-size: 2.95vw;
+    line-height: 3.94vw;
+    margin: 0 0.98vw;
+  }
+  .jardin_game_wrapper .game_lives {
+    left: 3.94vw;
+  }
+  .jardin_game_wrapper .game_lives .live {
+    width: 2.95vw;
+    height: 2.95vw;
+    margin: 0.98vw 0;
+  }
+  .jardin_game_wrapper .jardin_cup {
+    width: 26.6vw;
+    height: 12.8vw;
+  }
+  .jardin_game_wrapper .jardin_cup .jardin_cup_inner {
+    width: 21.3vw;
+  }
+  .jardin_game_wrapper .move_icon {
+    width: 13.28vw;
+    height: 8.8vw;
+    bottom: 3.94vw;
+    right: 3.94vw;
+  }
+  .jardin_game_wrapper .game_element.apple {
+    width: 5.05vw;
+    height: 6.53vw;
+  }
+  .jardin_game_wrapper .game_element.berry {
+    width: 5.17vw;
+    height: 4.68vw;
+  }
+  .jardin_game_wrapper .game_element.peach {
+    width: 6.03vw;
+    height: 6.9vw;
+  }
+  .jardin_game_wrapper .game_element.pear {
+    width: 4.43vw;
+    height: 11.45vw;
+  }
+  .jardin_game_wrapper .game_element.avocado {
+    width: 4.8vw;
+    height: 6.9vw;
+  }
+  .jardin_game_wrapper .game_element.banana {
+    width: 6.9vw;
+    height: 6.28vw;
+  }
+  .jardin_game_wrapper .game_element.strawberry {
+    width: 5.17vw;
+    height: 6.9vw;
+  }
+  .jardin_game_wrapper .game_element.candy {
+    width: 8.74vw;
+    height: 5.05vw;
+  }
+  .jardin_game_wrapper .game_element.chocolate {
+    width: 7.88vw;
+    height: 6.65vw;
+  }
+  .jardin_game_wrapper .game_element.caramel {
+    width: 6.4vw;
+    height: 6.4vw;
+  }
+  .jardin_game_wrapper .game_element.almond {
+    width: 5.66vw;
+    height: 6.9vw;
+  }
+  .jardin_game_wrapper .game_element.vanilla {
+    width: 7vw;
+    height: 7.39vw;
+  }
+  .jardin_game_wrapper .game_element.minus10 {
+    width: 8.5vw;
+    height: 8.13vw;
+  }
+  .jardin_game_wrapper .game_element.plus10 {
+    width: 8.5vw;
+    height: 8.13vw;
+  }
+  .jardin_game_wrapper .game_element.cupcake {
+    width: 4.68vw;
+    height: 6.9vw;
+  }
+  .jardin_game_wrapper .game_element.orange {
+    width: 6.77vw;
+    height: 6.9vw;
+  }
+  .jardin_game_wrapper .game_element.pine {
+    width: 8.62vw;
+    height: 6.77vw;
+  }
+  .jardin_game_wrapper .game_element.rose {
+    width: 2.95vw;
+    height: 7.27vw;
+  }
+  .jardin_game_wrapper .game_element .grapefruit {
+    width: 7.76vw;
+    height: 6.65vw;
+  }
+  .jardin_game_wrapper .game_element.points_x2 {
+    width: 4.43vw;
+    height: 6.53vw;
+  }
+  .jardin_game_wrapper .game_element.point_2 {
+    width: 6.65vw;
+    height: 7.14vw;
+  }
+  .jardin_game_wrapper .game_element.clove {
+    width: 5.91vw;
+    height: 5.91vw;
+  }
+  .jardin_game_wrapper .game_element.grape {
+    width: 6.65vw;
+    height: 6.65vw;
+  }
+  .jardin_game_wrapper .game_element.cherry {
+    width: 6.28vw;
+    height: 6.65vw;
+  }
+  .jardin_game_wrapper .game_element.pepper {
+    width: 5.17vw;
+    height: 6.9vw;
+  }
+  .jardin_game_wrapper .game_over_popup .game_over_popup_inner {
+    padding: 0 20px;
+    box-sizing: border-box;
+  }
+  .jardin_game_wrapper .game_over_popup .game_over_popup_inner .popup_title {
+    font-size: 32px;
+    line-height: 40px;
+    margin-bottom: 20px;
+  }
+  .jardin_game_wrapper .game_over_popup .game_over_popup_inner .game_points {
+    font-size: 26px;
+    line-height: 32px;
+    margin-bottom: 24px;
+  }
+  .jardin_game_wrapper .game_over_popup .jardin_popup_info_block {
+    height: 33px;
+  }
+  .jardin_game_wrapper .game_over_popup .jardin_popup_info_block .jardin_popup_title {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 100%;
+    padding-right: 4px;
+  }
+  .jardin_game_wrapper .game_over_popup .jardin_popup_info_block .jardin_popup_text {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 100%;
+  }
+}
+@media screen and (max-width: 767px) {
+  .jardin_game_page_wrapper {
+    padding: 7.5vw;
+  }
+  .jardin_game_page_wrapper .text_t3 {
+    font-size: 4.375vw;
+    line-height: 5vw;
+  }
+  .jardin_game_page_wrapper .jardin_product_info {
+    padding-left: 0;
+    -webkit-flex-direction: column;
+    -moz-flex-direction: column;
+    -ms-flex-direction: column;
+    -o-flex-direction: column;
+    -khtml-flex-direction: column;
+    flex-direction: column;
+  }
+  .jardin_game_page_wrapper .jardin_product_info .rounds_counter {
+    width: 45.625vw;
+    height: 14.375vw;
+    font-size: 6.25vw;
+    line-height: 6.25vw;
+    margin-bottom: 7.5vw;
+    position: relative;
+    z-index: 5;
+  }
+  .jardin_game_page_wrapper .jardin_product_info .pack_image_wrapper {
+    width: 47.5vw;
+    position: relative;
+    top: 0;
+    left: -5.31vw;
+    margin-bottom: 5vw;
+  }
+  .jardin_game_page_wrapper .jardin_product_info .pack_description {
+    padding-left: 0;
+    position: relative;
+    z-index: 5;
+  }
+  .jardin_game_page_wrapper .jardin_product_info .pack_description .coffee_name {
+    font-size: 10vw;
+    line-height: 10vw;
+    margin-bottom: 5vw;
+  }
+  .jardin_game_page_wrapper .jardin_product_info .pack_description .coffee_description {
+    font-size: 5vw;
+    line-height: 5.625vw;
+    margin-bottom: 10vw;
+  }
+  .jardin_game_page_wrapper .game_rules_wrapper {
+    padding-left: 0;
+    -webkit-flex-direction: column;
+    -moz-flex-direction: column;
+    -ms-flex-direction: column;
+    -o-flex-direction: column;
+    -khtml-flex-direction: column;
+    flex-direction: column;
+    position: relative;
+    width: 100%;
+  }
+  .jardin_game_page_wrapper .game_rules_wrapper > div {
+    position: relative;
+    z-index: 3;
+  }
+  .jardin_game_page_wrapper .game_rules_wrapper .game_rule_title {
+    font-size: 5.625vw;
+    line-height: 7.5vw;
+  }
+  .jardin_game_page_wrapper .game_rules_wrapper .game_goals .goals_items_wrapper {
+    width: 100%;
+    margin-top: 2.5vw;
+    -webkit-justify-content: space-between;
+    -moz-justify-content: space-between;
+    -ms-justify-content: space-between;
+    -o-justify-content: space-between;
+    -khtml-justify-content: space-between;
+    justify-content: space-between;
+  }
+  .jardin_game_page_wrapper .game_rules_wrapper .game_goals .goals_items_wrapper .goal_item {
+    width: 20vw;
+    margin-right: 0;
+    margin-bottom: 13.125vw;
+  }
+  .jardin_game_page_wrapper .game_rules_wrapper .game_goals .goals_items_wrapper .goal_item .item_image_wrapper {
+    width: 16.25vw;
+    margin: 0 auto 2.5vw;
+  }
+  .jardin_game_page_wrapper .game_rules_wrapper .game_rules {
+    width: 100%;
+    margin-bottom: 5vw;
+  }
+  .jardin_game_page_wrapper .game_rules_wrapper .game_rules .game_rule_title {
+    margin-bottom: 5vw;
+  }
+  .jardin_game_page_wrapper .game_rules_wrapper .game_rules .rules_wrapper .game_rule {
+    margin-bottom: 5vw;
+  }
+  .jardin_game_page_wrapper .game_rules_wrapper .game_rules .rules_wrapper .game_rule .rule_text {
+    max-width: 61vw;
+  }
+  .jardin_game_page_wrapper .game_rules_wrapper .game_rules .rules_wrapper .game_rule .rule_icon {
+    margin-right: 3.125vw;
+    width: 6.25vw;
+  }
+  .jardin_game_page_wrapper .game_rules_wrapper .game_rules .rules_wrapper .game_rule .rule_icon svg {
+    width: 6.25vw;
+  }
+  .jardin_game_page_wrapper .game_rules_wrapper .game_complications {
+    margin-top: 0;
+    max-width: 100%;
+    margin-bottom: 10vw;
+  }
+  .jardin_game_page_wrapper .game_rules_wrapper .game_complications .game_rule_title {
+    margin-bottom: 2.5vw;
+  }
+  .jardin_game_page_wrapper .game_rules_wrapper .jardin_play_button {
+    width: 51.875vw;
+    height: 14.375vw;
+    font-size: 5.625vw;
+    line-height: 5.625vw;
+    margin: 0 auto 0 0;
+  }
+  .jardin_game_page_wrapper .game_rules_wrapper .jardin_play_button .arrow {
+    width: 9.69vw;
+    margin-left: 5vw;
+  }
+  .jardin_game_page_wrapper .game_rules_wrapper .homepage_link_wrapper {
+    margin: 5vw auto 0 0;
+    width: 51.875vw;
+  }
+  .jardin_game_page_wrapper .game_rules_wrapper .homepage_link_wrapper a {
+    font-size: 5vw;
+    line-height: 5vw;
+  }
+  .jardin_game_page_wrapper.game_page_round_2 .jardin_product_info .pack_description .coffee_description {
+    margin-bottom: 7.81vw;
+  }
+  .jardin_game_page_wrapper.game_page_round_2 .game_rules_wrapper .game_goals .goals_items_wrapper {
+    margin-top: 3vw;
+  }
+  .jardin_game_page_wrapper.game_page_round_2 .game_rules_wrapper .game_complications {
+    max-width: 100%;
+    width: 100%;
+    position: relative;
+  }
+  .jardin_game_page_wrapper.game_page_round_2 .game_rules_wrapper .game_complications .complications_text {
+    max-width: 46vw;
+  }
+  .jardin_game_page_wrapper.game_page_round_2 .game_rules_wrapper .game_complications .complications_text br {
+    display: none;
+  }
+  .jardin_game_page_wrapper.game_page_round_2 .game_rules_wrapper .game_complications .complications_icons_wrapper {
+    margin-top: 0;
+    position: absolute;
+    right: 0;
+    bottom: 2.81vw;
+  }
+  .jardin_game_page_wrapper.game_page_round_2 .game_rules_wrapper .game_complications .complications_icons_wrapper .complication_icon {
+    width: 17.5vw;
+  }
+  .jardin_game_page_wrapper.game_page_round_2 .game_rules_wrapper .homepage_link_wrapper {
+    margin: 5vw auto 0 0;
+  }
+  .jardin_game_page_wrapper.game_page_round_3 .jardin_product_info .pack_description .coffee_description {
+    margin-bottom: 10vw;
+  }
+  .jardin_game_page_wrapper.game_page_round_3 .game_rules_wrapper .game_goals .goals_items_wrapper {
+    margin-top: 5vw;
+  }
+  .jardin_game_page_wrapper.game_page_round_3 .game_rules_wrapper .game_goals .goals_items_wrapper .goal_item {
+    width: auto;
+  }
+  .jardin_game_page_wrapper.game_page_round_3 .game_rules_wrapper .game_goals .goal_name {
+    white-space: nowrap;
+  }
+  .jardin_game_page_wrapper.game_page_round_3 .game_rules_wrapper .game_complications {
+    max-width: 100%;
+    width: 100%;
+    position: relative;
+  }
+  .jardin_game_page_wrapper.game_page_round_3 .game_rules_wrapper .game_complications .complications_text {
+    max-width: 46vw;
+  }
+  .jardin_game_page_wrapper.game_page_round_3 .game_rules_wrapper .game_complications .complications_icons_wrapper {
+    margin-top: 0;
+    position: absolute;
+    right: 0;
+    bottom: 2.81vw;
+  }
+  .jardin_game_page_wrapper.game_page_round_3 .game_rules_wrapper .game_complications .complications_icons_wrapper .complication_icon {
+    width: 17.5vw;
+  }
+  .jardin_game_page_wrapper.game_page_round_3 .game_rules_wrapper .homepage_link_wrapper {
+    margin: 5vw auto 0 0;
+  }
+
+  .jardin_game_wrapper .game_element.apple {
+    width: 5.28vw;
+    height: 7.04vw;
+  }
+  .jardin_game_wrapper .game_element.berry {
+    width: 5.28vw;
+    height: 6.51vw;
+  }
+  .jardin_game_wrapper .game_element.peach {
+    width: 6.16vw;
+    height: 7.04vw;
+  }
+  .jardin_game_wrapper .game_element.pear {
+    width: 4.58vw;
+    height: 11.62vw;
+  }
+  .jardin_game_wrapper .game_element.avocado {
+    width: 4.93vw;
+    height: 7.04vw;
+  }
+  .jardin_game_wrapper .game_element.banana {
+    width: 7.74vw;
+    height: 7.04vw;
+  }
+  .jardin_game_wrapper .game_element.strawberry {
+    width: 5.28vw;
+    height: 7.04vw;
+  }
+  .jardin_game_wrapper .game_element.candy {
+    width: 9.86vw;
+    height: 5.63vw;
+  }
+  .jardin_game_wrapper .game_element.chocolate {
+    width: 7.04vw;
+    height: 5.98vw;
+  }
+  .jardin_game_wrapper .game_element.caramel {
+    width: 5.98vw;
+    height: 5.98vw;
+  }
+  .jardin_game_wrapper .game_element.almond {
+    width: 4.93vw;
+    height: 5.98vw;
+  }
+  .jardin_game_wrapper .game_element.vanilla {
+    width: 6.69vw;
+    height: 7.04vw;
+  }
+  .jardin_game_wrapper .game_element.minus10 {
+    width: 8.8vw;
+    height: 8.45vw;
+  }
+  .jardin_game_wrapper .game_element.plus10 {
+    width: 8.8vw;
+    height: 8.45vw;
+  }
+  .jardin_game_wrapper .game_element.cupcake {
+    width: 4.58vw;
+    height: 6.69vw;
+  }
+  .jardin_game_wrapper .game_element.orange {
+    width: 6.51vw;
+    height: 6.69vw;
+  }
+  .jardin_game_wrapper .game_element.pine {
+    width: 7.22vw;
+    height: 5.63vw;
+  }
+  .jardin_game_wrapper .game_element.rose {
+    width: 3.53vw;
+    height: 8.6vw;
+  }
+  .jardin_game_wrapper .game_element .grapefruit {
+    width: 7.04vw;
+    height: 5.98vw;
+  }
+  .jardin_game_wrapper .game_element.points_x2 {
+    width: 5.63vw;
+    height: 8.45vw;
+  }
+  .jardin_game_wrapper .game_element.point_2 {
+    width: 7.92vw;
+    height: 8.45vw;
+  }
+  .jardin_game_wrapper .game_element.clove {
+    width: 5.98vw;
+    height: 5.98vw;
+  }
+  .jardin_game_wrapper .game_element.grape {
+    width: 5.98vw;
+    height: 5.98vw;
+  }
+  .jardin_game_wrapper .game_element.cherry {
+    width: 5.63vw;
+    height: 5.98vw;
+  }
+  .jardin_game_wrapper .game_element.pepper {
+    width: 5.1vw;
+    height: 6.69vw;
+  }
+  .jardin_game_wrapper .game_over_popup .game_over_popup_inner {
+    padding: 0 20px;
+    box-sizing: border-box;
+  }
+  .jardin_game_wrapper .game_over_popup .game_over_popup_inner .popup_title {
+    font-size: 32px;
+    line-height: 40px;
+    margin-bottom: 20px;
+  }
+  .jardin_game_wrapper .game_over_popup .game_over_popup_inner .game_points {
+    font-size: 26px;
+    line-height: 32px;
+    margin-bottom: 24px;
+  }
+}
+@media screen and (max-width: 767px) and (min-height: 500px) {
+  .jardin_game_page_wrapper {
+    background-size: auto 177.5vw;
+    background-position: top right;
+    background-repeat: repeat-y;
+  }
+}
+
+/*# sourceMappingURL=jardin_game.css.map */

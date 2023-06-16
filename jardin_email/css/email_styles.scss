@@ -1,0 +1,93 @@
+body{
+  margin: 0;
+  padding: 0;
+  background-color: #333333;
+}
+*{
+  margin: 0;
+  padding: 0;
+}
+table{
+  border-spacing: 0;
+  background-color: #000000;
+}
+td{
+  padding: 0;
+  border: 0;
+}
+tr{
+  border-spacing: 0;
+  border: 0;
+}
+img{
+  border:0;
+}
+p{
+  box-sizing: border-box;
+}
+.wrapper{
+  background-color: #333333;
+  width: 100%;
+  table-layout: fixed;
+  .email_inner{
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #000000;
+    .outer{
+      width: 100%;
+      max-width: 600px;
+      .title{
+        font-style: normal;
+        font-weight: normal;
+        font-size: 58px;
+        line-height: 56px;
+        text-transform: uppercase;
+        color: #887C47;
+        margin:0 0 24px 0;
+        font-family: 'Circe', Tahoma, Sans-Serif;
+      }
+      .place{
+        font-family: 'Circe', Tahoma, Sans-Serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 58px;
+        line-height: 56px;
+        text-transform: uppercase;
+        margin:0 0 32px 0;
+        color: rgba(255, 255, 255, 0.8);
+      }
+      .text{
+        font-family: 'Circe', Tahoma, Sans-Serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 30px;
+        line-height: 100%;
+        color: rgba(255, 255, 255, 0.6);
+        max-width: 74%;
+        margin:0 0 22px 0;
+      }
+      .button{
+        font-family: 'Circe', Tahoma, Sans-Serif;
+        width: 278px;
+        height: 64px;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 32px;
+        line-height: 32px;
+        text-transform: uppercase;
+        text-align: center;
+        color: #14110E;
+        background: #887C47;
+        text-decoration: none;
+        padding: 17px 34px 17px 34px;
+        display: block;
+        box-sizing: border-box;
+        cursor: pointer;
+      }
+      .prize_img{
+        width: 100%;
+        max-width: 100%;
+      }
+    }
+  }
+}

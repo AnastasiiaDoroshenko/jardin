@@ -1,0 +1,3550 @@
+@font-face {
+  font-family: 'Circe';
+  src: url('../font/Circe-Regular.eot');
+  src: local('Circe'), local('Circe-Regular'),
+  url('../font/Circe-Regular.eot?#iefix') format('embedded-opentype'),
+  url('../font/Circe-Regular.woff') format('woff'),
+  url('../font/Circe-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Circe';
+  src: url('../font/Circe-Bold.eot');
+  src: local('Circe Bold'), local('Circe-Bold'),
+  url('../font/Circe-Bold.eot?#iefix') format('embedded-opentype'),
+  url('../font/Circe-Bold.woff') format('woff'),
+  url('../font/Circe-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+.jardin_page_wrapper{
+  background: #14110E;
+  font-family: 'Circe';
+  overflow: hidden;
+  padding: 0 8.33vw;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  &.jardin_page_error_wrapper{
+    min-height: 100vh;
+    .jardin_page_container{
+      display: -webkit-box;
+      display: -moz-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-flex-direction: column;
+      -moz-flex-direction: column;
+      -ms-flex-direction: column;
+      -o-flex-direction: column;
+      -khtml-flex-direction: column;
+      flex-direction: column;
+      height: 100%;
+      min-height: 100vh;
+      -webkit-justify-content: space-between;
+      -moz-justify-content: space-between;
+      -ms-justify-content: space-between;
+      -o-justify-content: space-between;
+      -khtml-justify-content: space-between;
+      justify-content: space-between;
+      .error_404_container{
+        display: -webkit-box;
+        display: -moz-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-align-items: center;
+        -moz-align-items: center;
+        -ms-align-items: center;
+        -o-align-items: center;
+        -khtml-align-items: center;
+        align-items: center;
+        -webkit-flex-direction: column;
+        -moz-flex-direction: column;
+        -ms-flex-direction: column;
+        -o-flex-direction: column;
+        -khtml-flex-direction: column;
+        flex-direction: column;
+        .error_title{
+          margin-bottom: 32px;
+          color: #887C47;
+          font-style: normal;
+          font-weight: normal;
+          font-size: 40px;
+          line-height: 40px;
+        }
+        .error_code{
+          font-style: normal;
+          font-weight: bold;
+          font-size: 160px;
+          line-height: 160px;
+          letter-spacing: 0.02em;
+          text-transform: uppercase;
+          color: #887C47;
+          margin-bottom: 16px;
+        }
+        .error_page_text{
+          font-style: normal;
+          font-weight: normal;
+          font-size: 18px;
+          line-height: 24px;
+          text-align: center;
+          color: #C3C3C3;
+          margin-bottom: 48px;
+        }
+        .jardin_button{
+          width: 200px;
+          height: 58px;
+          text-decoration: none;
+          font-style: normal;
+          font-weight: normal;
+          font-size: 20px;
+          line-height: 24px;
+          align-items: center;
+          text-transform: uppercase;
+          color: #14110E;
+        }
+      }
+    }
+  }
+  .link{
+    font-family: inherit;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.53vw;
+    line-height: 1.67vw;
+    color: #C3C3C3;
+  }
+  .title_h1{
+    font-family: inherit;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 4.44vw;
+    line-height: 5vw;
+    text-transform: uppercase;
+    color: #887C47;
+  }
+  .title_h2{
+    font-family: inherit;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 3.89vw;
+    line-height: 3.89vw;
+    text-transform: uppercase;
+    color: #887C47;
+  }
+  .title_h3{
+    font-family: inherit;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 2.78vw;
+    line-height: 2.22vw;
+    text-align: center;
+    color: #14110E;
+  }
+  .text_t1{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 2.22vw;
+    line-height: 2.78vw;
+    color: #C3C3C3;
+  }
+  .text_t2{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.67vw;
+    line-height: 2.22vw;
+    color: #777670;
+  }
+  .text_t3{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.25vw;
+    line-height: 1.67vw;
+    color: #777670;
+  }
+  .jardin_button{
+    -webkit-transition: box-shadow 0.5s ease-in-out;
+    -moz-transition: box-shadow 0.5s ease-in-out;
+    -ms-transition: box-shadow 0.5s ease-in-out;
+    -o-transition: box-shadow 0.5s ease-in-out;
+    transition: box-shadow 0.5s ease-in-out;
+    background: #887C47;
+    cursor: pointer;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-items: center;
+    -moz-align-items: center;
+    -ms-align-items: center;
+    -o-align-items: center;
+    -khtml-align-items: center;
+    align-items: center;
+    -webkit-justify-content: center;
+    -moz-justify-content: center;
+    -ms-justify-content: center;
+    -o-justify-content: center;
+    -khtml-justify-content: center;
+    justify-content: center;
+    font-size: 2.22vw;
+    line-height: 2.22vw;
+    text-transform: uppercase;
+    &:hover{
+      box-shadow: 0px 0px 10px #9A8D51;
+    }
+    &:active, &:focus{
+      box-shadow: inset 0px 0px 20px rgba(20, 17, 14, 0.4);
+    }
+    &:disabled, &.disabled{
+      background: #C3C3C3;
+      color: #777670;
+      &:active, &:focus, &:hover{
+        -webkit-box-shadow: none;
+        -moz-box-shadow: none;
+        box-shadow: none;
+      }
+    }
+    &.play_button{
+      .arrow{
+        margin-left: 1.11vw;
+        width: 4.44vw;
+        display: -webkit-box;
+        display: -moz-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-align-items: center;
+        -moz-align-items: center;
+        -ms-align-items: center;
+        -o-align-items: center;
+        -khtml-align-items: center;
+        align-items: center;
+        -webkit-justify-content: center;
+        -moz-justify-content: center;
+        -ms-justify-content: center;
+        -o-justify-content: center;
+        -khtml-justify-content: center;
+        justify-content: center;
+        img{
+          width: 100%;
+          max-width: 100%;
+        }
+      }
+    }
+  }
+  .jardin_page_header{
+    position: relative;
+    z-index: 5;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-justify-content: space-between;
+    -moz-justify-content: space-between;
+    -ms-justify-content: space-between;
+    -o-justify-content: space-between;
+    -khtml-justify-content: space-between;
+    justify-content: space-between;
+    padding:  2.22vw 0;
+    .mobile_nav_icon{
+      display: none;
+    }
+    .jardin_main_nav{
+      .main_menu{
+        display: -webkit-box;
+        display: -moz-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        .menu_link_wrapper{
+          margin-right: 2.22vw;
+          .menu_link{
+            text-decoration: none;
+            color: #C3C3C3;
+          }
+        }
+      }
+    }
+    .user_profile_wrapper{
+      display: -webkit-box;
+      display: -moz-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-align-items: center;
+      -moz-align-items: center;
+      -ms-align-items: center;
+      -o-align-items: center;
+      -khtml-align-items: center;
+      align-items: center;
+      cursor: pointer;
+      .user_icon{
+        width: 1.67vw;
+        max-width: 24px;
+        margin-right: 0.55vw;
+        img{
+          width: 100%;
+          max-width: 100%;
+        }
+      }
+      .log_out{
+        display: -webkit-box;
+        display: -moz-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-align-items: center;
+        -moz-align-items: center;
+        -ms-align-items: center;
+        -o-align-items: center;
+        -khtml-align-items: center;
+        align-items: center;
+        cursor: pointer;
+        width: 32px;
+        margin-left: 16px;
+        img{
+          width: 100%;
+          max-width: 100%;
+        }
+      }
+      &.logged_in_profile{
+        .user_icon{
+          width: 32px;
+          max-width: 32px;
+        }
+      }
+    }
+  }
+  .first_section{
+    padding: 0 0 11.25vw 0;
+    position: relative;
+    z-index: 1;
+    &:after{
+      content: '';
+      display: block;
+      position: absolute;
+      right: calc(600px - 50vw);
+      top:0;
+      z-index: 0;
+      background-image: url("../img/section_pattern_new.png");
+      background-repeat: no-repeat;
+      background-size: contain;
+      background-position: top right;
+      width: 1052px;
+      height: 100%;
+    }
+    .logo_wrapper{
+      width: 11.94vw;
+      margin-bottom: 2.22vw;
+      .jardin_logo{
+        width: 100%;
+        max-width: 100%;
+      }
+    }
+    .jardin_page_title{
+      max-width: 34.58vw;
+      margin-bottom: 1.11vw;
+    }
+    .jardin_text_block{
+      max-width: 27.08vw;
+      margin-bottom: 2.22vw;
+
+    }
+    .jardin_info_block{
+      display: -webkit-box;
+      display: -moz-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-align-items: flex-end;
+      -moz-align-items: flex-end;
+      -ms-align-items: flex-end;
+      -o-align-items: flex-end;
+      -khtml-align-items: flex-end;
+      align-items: flex-end;
+      position: relative;
+      .packs_wrapper{
+        display: -webkit-box;
+        display: -moz-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        .jardin_product{
+          width: 6.11vw;
+          margin-right: 1.67vw;
+          &:last-child{
+            margin: 0;
+          }
+          img{
+            width: 100%;
+            max-width: 100%;
+          }
+        }
+      }
+      .play_button{
+        margin: 0 0 3.33vw 9.24vw;
+        width: 21.25vw;
+        height: 5.97vw;
+        position: relative;
+        z-index: 2;
+      }
+      .jardin_cup{
+        position: absolute;
+        width: 52.26vw;
+        bottom: -5.55vw;
+        right: 1.1vw;
+        z-index: 1;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        img{
+          width: 100%;
+          max-width: 100%;
+        }
+      }
+    }
+  }
+  .how_to_play_section{
+    .jardin_section_title{
+      margin-bottom: 4.44vw;
+    }
+    .how_to_lay_steps_wrapper{
+      display: -webkit-box;
+      display: -moz-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-flex-wrap: wrap;
+      -moz-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+      -o-flex-wrap: wrap;
+      -khtml-flex-wrap: wrap;
+      flex-wrap: wrap;
+      -webkit-justify-content: space-between;
+      -moz-justify-content: space-between;
+      -ms-justify-content: space-between;
+      -o-justify-content: space-between;
+      -khtml-justify-content: space-between;
+      justify-content: space-between;
+      -webkit-align-items: flex-start;
+      -moz-align-items: flex-start;
+      -ms-align-items: flex-start;
+      -o-align-items: flex-start;
+      -khtml-align-items: flex-start;
+      align-items: flex-start;
+      .play_button{
+        margin: 2.08vw 11.25vw 0 0;
+        width: 21.25vw;
+        height: 5.97vw;
+        position: relative;
+        z-index: 2;
+      }
+      .game_step{
+        width: 32.5vw;
+        .step_icon{
+          margin-bottom: 2.78vw;
+          img{
+            width: 100%;
+            max-width: 100%;
+          }
+        }
+        .step_description{
+          .text_t1{
+            margin-bottom: 1.32vw;
+          }
+        }
+        &:nth-child(1){
+          .step_icon{
+            max-width: 16.94vw;
+          }
+        }
+        &:nth-child(2){
+          .step_icon{
+            max-width: 17.64vw;
+          }
+        }
+        &:nth-child(3){
+          margin-top: -4.17vw;
+          .step_icon{
+            margin-bottom: 1.11vw;
+            max-width: 18.125vw;
+            margin-left: 4.1vw;
+          }
+        }
+      }
+    }
+  }
+  .prizes_section{
+    position: relative;
+    padding: 16.73vw 0 4.375vw 0;
+    margin-bottom: 5.9vw;
+    .prizes_steps{
+      position: relative;
+      z-index: 3;
+      display: -webkit-box;
+      display: -moz-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-flex-wrap: wrap;
+      -moz-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+      -o-flex-wrap: wrap;
+      -khtml-flex-wrap: wrap;
+      flex-wrap: wrap;
+      -webkit-justify-content: space-between;
+      -moz-justify-content: space-between;
+      -ms-justify-content: space-between;
+      -o-justify-content: space-between;
+      -khtml-justify-content: space-between;
+      justify-content: space-between;
+      max-width: 39.17vw;
+      .prize_step{
+        width: 17.36vw;
+        margin-bottom: 4.44vw;
+        .step_icon{
+          margin: 0 auto 1.39vw;
+          width: 7.78vw;
+          img{
+            width: 100%;
+            max-width: 100%;
+          }
+        }
+        .step_info{
+          text-align: center;
+        }
+      }
+    }
+    .prizes_image_wrapper{
+      position: absolute;
+      z-index: 1;
+      width: 59.63vw;
+      bottom: 0;
+      right: -5.42vw;
+      &:before{
+        content: '';
+        position: absolute;
+        display: block;
+        width: 66.875vw;
+        height: 145.55vw;
+        background-image: url("../img/ellipse.svg");
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center center;
+        right: -9.72vw;
+        top:-52.29vw;
+      }
+      img{
+        width: 100%;
+        max-width: 100%;
+      }
+    }
+  }
+  .standings_section{
+    position: relative;
+    z-index: 5;
+    margin-bottom: 8.33vw;
+    overflow: visible;
+    .jardin_section_title{
+      margin-bottom: 3.33vw;
+    }
+    .standings_tabs_wrapper{
+      .tabs_header_nav{
+        position: relative;
+        margin:0 auto 1.66vw;
+        display: inline-block;
+        justify-content: center;
+        display: -webkit-box;
+        display: -moz-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-justify-content: flex-end;
+        -moz-justify-content: flex-end;
+        -ms-justify-content: flex-end;
+        -o-justify-content: flex-end;
+        -khtml-justify-content: flex-end;
+        justify-content: flex-end;
+        .slick-arrow{
+          width: 42px;
+          height: 42px;
+          background-size: cover;
+          background-repeat: no-repeat;
+          background-position: center;
+          position: relative;
+          top:0;
+          -webkit-transform: translate(0, 0);
+          -moz-transform: translate(0, 0);
+          -ms-transform: translate(0, 0);
+          -o-transform: translate(0, 0);
+          transform: translate(0, 0);
+          &.slick-prev{
+            background-image: url("../img/prev.svg");
+            left: 0;
+          }
+          &.slick-next{
+            background-image: url("../img/next.svg");
+            right: 0;
+            margin-left: 32px;
+          }
+          &:before{
+            display: none;
+          }
+        }
+      }
+      .result_table_position{
+        width: 4.375vw;
+        margin-right: 2.7vw;
+        text-align: center;
+        -webkit-flex-shrink: 0;
+        -moz-flex-shrink: 0;
+        -ms-flex-shrink: 0;
+        -o-flex-shrink: 0;
+        -khtml-flex-shrink: 0;
+        flex-shrink: 0;
+      }
+      .result_table_name{
+        width: 19.58vw;
+        -webkit-flex-shrink: 0;
+        -moz-flex-shrink: 0;
+        -ms-flex-shrink: 0;
+        -o-flex-shrink: 0;
+        -khtml-flex-shrink: 0;
+        flex-shrink: 0;
+      }
+      .result_table_round{
+        width: 4.24vw;
+        margin: 0 2.25vw;
+        -webkit-flex-shrink: 0;
+        -moz-flex-shrink: 0;
+        -ms-flex-shrink: 0;
+        -o-flex-shrink: 0;
+        -khtml-flex-shrink: 0;
+        flex-shrink: 0;
+      }
+      .result_table_round_number{
+        width: 4.51vw;
+        margin-right: 2.78vw;
+        text-align: center;
+        -webkit-flex-shrink: 0;
+        -moz-flex-shrink: 0;
+        -ms-flex-shrink: 0;
+        -o-flex-shrink: 0;
+        -khtml-flex-shrink: 0;
+        flex-shrink: 0;
+      }
+      .result_table_total{
+        width: 4.51vw;
+        text-align: center;
+        -webkit-flex-shrink: 0;
+        -moz-flex-shrink: 0;
+        -ms-flex-shrink: 0;
+        -o-flex-shrink: 0;
+        -khtml-flex-shrink: 0;
+        flex-shrink: 0;
+      }
+      .result_table_datetime{
+        width: 9.86vw;
+        margin-left: auto;
+        text-align: center;
+        -webkit-flex-shrink: 0;
+        -moz-flex-shrink: 0;
+        -ms-flex-shrink: 0;
+        -o-flex-shrink: 0;
+        -khtml-flex-shrink: 0;
+        flex-shrink: 0;
+        white-space: nowrap;
+      }
+      .mCSB_scrollTools_vertical{
+        width: 10px;
+        z-index: 10;
+        .mCSB_draggerContainer{
+          .mCSB_dragger{
+            .mCSB_dragger_bar{
+              background: #887C47;
+              border-radius: 1px;
+              width: 2px;
+            }
+          }
+          .mCSB_draggerRail{
+            background: #887C47;
+            opacity: 0.4;
+            border-radius: 1px;
+          }
+        }
+      }
+      .mCSB_scrollTools_horizontal{
+        z-index: 10;
+        .mCSB_draggerContainer{
+          .mCSB_dragger{
+            .mCSB_dragger_bar{
+              background: #887C47;
+              border-radius: 1px;
+              height: 2px;
+              margin: 7px auto;
+            }
+          }
+          .mCSB_draggerRail{
+            background: #887C47;
+            opacity: 0.4;
+            border-radius: 1px;
+          }
+        }
+      }
+      .mCSB_container{
+        margin-right: 2.08vw;
+      }
+      .mCSB_container_wrapper{
+        margin: 0;
+      }
+      .tabs_header{
+        display: -webkit-box;
+        display: -moz-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        //-webkit-justify-content: space-between;
+        //-moz-justify-content: space-between;
+        //-ms-justify-content: space-between;
+        //-o-justify-content: space-between;
+        //-khtml-justify-content: space-between;
+        //justify-content: space-between;
+        -webkit-justify-content: flex-start;
+        -moz-justify-content: flex-start;
+        -ms-justify-content: flex-start;
+        -o-justify-content: flex-start;
+        -khtml-justify-content: flex-start;
+        justify-content: flex-start;
+        margin-bottom: 2.22vw;
+        min-width: 100%;
+        .slick-track, .slick-list{
+          min-width: 100%;
+        }
+        .result_week{
+          width: 20.83vw;
+          height: 5.55vw;
+          background-image: url("../img/rectangle.svg");
+          background-size: contain;
+          background-repeat: no-repeat;
+          background-position: center;
+          opacity: 0.6;
+          display: block;
+          a{
+            width: 100%;
+            height: 100%;
+            display: -webkit-box;
+            display: -moz-box;
+            display: -webkit-flex;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-align-items: center;
+            -moz-align-items: center;
+            -ms-align-items: center;
+            -o-align-items: center;
+            -khtml-align-items: center;
+            align-items: center;
+            justify-content: center;
+            outline: none;
+            text-decoration: none;
+            white-space: nowrap;
+          }
+          &.ui-state-active{
+            opacity: 1;
+          }
+          &:hover{
+            opacity: 0.85;
+          }
+        }
+      }
+      .result_table_header{
+        display: -webkit-box;
+        display: -moz-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        margin-bottom: 1.39vw;
+        .text_t3{
+          opacity: 0.6;
+        }
+      }
+      .standings_tab_content{
+        margin-right: -2.08vw;
+        .weekly_results_table{
+          height: 22.5vw;
+          padding-bottom: 0;
+          .mCSB_container{
+            padding-bottom: 10.5vw;
+          }
+          &:after{
+            content: '';
+            width: 100%;
+            height: 10.41vw;
+            background: linear-gradient(180deg, rgba(20, 17, 14, 0) 0%, #14110E 100%);
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            z-index: 2;
+          }
+          .result_row{
+            position: relative;
+            z-index: 1;
+            display: -webkit-box;
+            display: -moz-box;
+            display: -webkit-flex;
+            display: -ms-flexbox;
+            display: flex;
+            padding: 0.83vw 0;
+            -webkit-box-sizing: border-box;
+            -moz-box-sizing: border-box;
+            box-sizing: border-box;
+            -webkit-transition: box-shadow 0.5s ease-in-out, background-color 0.5s ease-in-out;
+            -moz-transition: box-shadow 0.5s ease-in-out, background-color 0.5s ease-in-out;
+            -ms-transition: box-shadow 0.5s ease-in-out, background-color 0.5s ease-in-out;
+            -o-transition: box-shadow 0.5s ease-in-out, background-color 0.5s ease-in-out;
+            transition: box-shadow 0.5s ease-in-out, background-color 0.5s ease-in-out;
+            cursor: default;
+            &.user_result{
+              //background: #336E86;
+              //box-shadow: 0px 0px 5px #326D85;
+              color: #887C47;
+              &>div{
+                color: #887C47;
+              }
+            }
+            .text_t2{
+              color:  #C3C3C3;
+            }
+            .result_table_name{
+              width: 26.07vw;
+              margin-right: 2.25vw;
+              white-space: nowrap;
+              overflow: hidden;
+            }
+          }
+        }
+      }
+    }
+  }
+  .shops_section{
+    display: -webkit-box;
+    display: -moz-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-direction: column;
+    -moz-flex-direction: column;
+    -ms-flex-direction: column;
+    -o-flex-direction: column;
+    -khtml-flex-direction: column;
+    flex-direction: column;
+    .jardin_section_title{
+      margin-bottom: 3.33vw;
+    }
+    .shop_slider_title{
+      opacity: 0.8;
+      color: #777670;
+      margin-bottom: 1.74vw;
+    }
+    .jardin_shops_slider{
+      padding: 0 5.02vw;
+      margin-bottom: 1.67vw;
+      -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      box-sizing: border-box;
+      .slick-track{
+        display: -webkit-box;
+        display: -moz-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-align-items: center;
+        -moz-align-items: center;
+        -ms-align-items: center;
+        -o-align-items: center;
+        -khtml-align-items: center;
+        align-items: center;
+      }
+      .jardin_shop{
+        padding: 0 2.06vw;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        outline: none;
+        .shop_link{
+          display: -webkit-box;
+          display: -moz-box;
+          display: -webkit-flex;
+          display: -ms-flexbox;
+          display: flex;
+          -webkit-align-items: center;
+          -moz-align-items: center;
+          -ms-align-items: center;
+          -o-align-items: center;
+          -khtml-align-items: center;
+          align-items: center;
+          -webkit-justify-content: center;
+          -moz-justify-content: center;
+          -ms-justify-content: center;
+          -o-justify-content: center;
+          -khtml-justify-content: center;
+          justify-content: center;
+          //outline: none;
+          //-webkit-filter: grayscale(1);
+          //filter:  grayscale(1);
+          //-webkit-transition: filter 0.4s ease-in-out;
+          //-moz-transition: filter 0.4s ease-in-out;
+          //-ms-transition: filter 0.4s ease-in-out;
+          //-o-transition: filter 0.4s ease-in-out;
+          //transition: filter 0.4s ease-in-out;
+          position: relative;
+          .hover_logo{
+            position: absolute;
+            top:0;
+            left: 0;
+            opacity: 0;
+            -webkit-transition: opacity 0.5s ease-in-out;
+            -moz-transition: opacity 0.5s ease-in-out;
+            -ms-transition: opacity 0.5s ease-in-out;
+            -o-transition: opacity 0.5s ease-in-out;
+            transition: opacity 0.5s ease-in-out;
+            z-index: 4;
+          }
+          &:hover{
+            //-webkit-filter: grayscale(0);
+            //filter:  grayscale(0);
+            .hover_logo{
+              opacity: 1;
+            }
+          }
+          img{
+            width: 100%;
+            max-width: 100%;
+          }
+        }
+      }
+    }
+    .jardin_shops_slider_nav{
+      position: relative;
+      margin:0 auto 3.47vw;
+      display: inline-block;
+      justify-content: center;
+      .slick-arrow{
+        width: 42px;
+        height: 42px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        &.slick-prev{
+          background-image: url("../img/prev.svg");
+          left: 0;
+          -webkit-transform: translate(-100%, -50%);
+          -moz-transform: translate(-100%, -50%);
+          -ms-transform: translate(-100%, -50%);
+          -o-transform: translate(-100%, -50%);
+          transform: translate(-100%, -50%);
+        }
+        &.slick-next{
+          background-image: url("../img/next.svg");
+          -webkit-transform: translate(100%, -50%);
+          -moz-transform: translate(100%, -50%);
+          -ms-transform: translate(100%, -50%);
+          -o-transform: translate(100%, -50%);
+          transform: translate(100%, -50%);
+          right: 0;
+        }
+        &:before{
+          display: none;
+        }
+      }
+      .slick-dots{
+        position: relative;
+        bottom:0;
+        width: auto;
+        li{
+          width: 12px;
+          height: 12px;
+          background: #887C47;
+          opacity: 0.4;
+          border-radius: 100%;
+          margin: 0 12px;
+          &.slick-active{
+            opacity: 1;
+          }
+          button{
+            display: none;
+          }
+        }
+      }
+    }
+  }
+  .contact_section{
+    padding-top: 3.47vw;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding-bottom: 5.55vw;
+    .jardin_section_title{
+      margin-bottom: 3.33vw;
+    }
+    .contact_wrapper{
+      display: -webkit-box;
+      display: -moz-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-align-items: center;
+      -moz-align-items: center;
+      -ms-align-items: center;
+      -o-align-items: center;
+      -khtml-align-items: center;
+      align-items: center;
+      .contact_button{
+        width: 16.7vw;
+        height: 4.03vw;
+        font-size: 1.39vw;
+        line-height: 1.67vw;
+        text-transform: uppercase;
+        color: #14110E;
+      }
+      .contacts_text{
+        margin: 0 1.67vw;
+        color: #777670;
+        opacity: 0.4;
+      }
+      .contact_email{
+        font-weight: bold;
+        font-size: 2.22vw;
+        line-height: 2.78vw;
+        text-decoration: underline;
+        color: #887C47;
+      }
+    }
+  }
+  .additional_section{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding-bottom: 5.55vw;
+    .jardin_section_title{
+      margin-bottom: 3.33vw;
+    }
+    .section_text{
+      color: rgba(119, 118, 112, 0.4);
+      padding-right: 4px;
+    }
+    .section_link{
+      color: #887C47;
+      text-decoration: none;
+      border-bottom: 1px solid #887C47;
+      line-height: 100%;
+      font-weight: bold;
+    }
+  }
+  .jardin_page_footer{
+    position: relative;
+    z-index: 6;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-justify-content: space-between;
+    -moz-justify-content: space-between;
+    -ms-justify-content: space-between;
+    -o-justify-content: space-between;
+    -khtml-justify-content: space-between;
+    justify-content: space-between;
+    -webkit-align-items: center;
+    -moz-align-items: center;
+    -ms-align-items: center;
+    -o-align-items: center;
+    -khtml-align-items: center;
+    align-items: center;
+    padding: 2.22vw 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    .social_networks_wrapper{
+      display: -webkit-box;
+      display: -moz-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-align-items: center;
+      -moz-align-items: center;
+      -ms-align-items: center;
+      -o-align-items: center;
+      -khtml-align-items: center;
+      align-items: center;
+      .social_link{
+        margin-right: 1.39vw;
+      }
+    }
+    .footer_info_links_container{
+      display: -webkit-box;
+      display: -moz-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-align-items: center;
+      -moz-align-items: center;
+      -ms-align-items: center;
+      -o-align-items: center;
+      -khtml-align-items: center;
+      align-items: center;
+      .info_link{
+        display: -webkit-box;
+        display: -moz-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        text-decoration: none;
+        opacity: 0.6;
+        -webkit-transition: opacity 0.5s ease-in-out;
+        -moz-transition: opacity 0.5s ease-in-out;
+        -ms-transition: opacity 0.5s ease-in-out;
+        -o-transition: opacity 0.5s ease-in-out;
+        transition: opacity 0.5s ease-in-out;
+        margin: 0 1.11vw;
+        &:hover{
+          opacity: 1;
+        }
+      }
+    }
+    .copyright{
+      opacity: 0.6;
+    }
+  }
+  .jardin_popup_bg{
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top:0;
+    left:0;
+    background: rgba(0, 0, 0, 0.65);
+    z-index: 59;
+    display: none;
+    &.opened{
+      display: block;
+    }
+  }
+  .jardin_popup_wrapper{
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top:0;
+    left:0;
+    z-index: 60;
+    display: none;
+    -webkit-align-items: center;
+    -moz-align-items: center;
+    -ms-align-items: center;
+    -o-align-items: center;
+    -khtml-align-items: center;
+    align-items: center;
+    -webkit-justify-content: center;
+    -moz-justify-content: center;
+    -ms-justify-content: center;
+    -o-justify-content: center;
+    -khtml-justify-content: center;
+    justify-content: center;
+    overflow: auto;
+    &.opened{
+      display: -webkit-box;
+      display: -moz-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+    }
+    .jardin_popup_inner{
+      width: 40.83vw;
+      min-height: 2.22vw;
+      background: #262422;
+      padding: 4.44vw 3.4vw 2.22vw;
+      -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      box-sizing: border-box;
+      position: relative;
+      z-index: 25;
+      .close_popup{
+        position: absolute;
+        width: 24px;
+        height: 24px;
+        top:24px;
+        right: 24px;
+        background-image: url("../img/close_popup.svg");
+        background-size: contain;
+        background-repeat: no-repeat;
+        cursor: pointer;
+      }
+      .popup_title{
+        color: #C3C3C3;
+        font-size: 2.77vw;
+        line-height: 100%;
+        text-align: center;
+      }
+      .popup_subtitle{
+        color: #777670;
+        text-align: center;
+        font-size: 1.67vw;
+        line-height: 2.22vw;
+      }
+    }
+    &.jardin_login_popup{
+      .jardin_popup_inner{
+        .popup_title{
+          margin-bottom: 3.33vw;
+        }
+        .popup_subtitle {
+          margin-bottom: 2.22vw;
+        }
+        .social_login_options{
+          display: -webkit-box;
+          display: -moz-box;
+          display: -webkit-flex;
+          display: -ms-flexbox;
+          display: flex;
+          -webkit-align-items: center;
+          -moz-align-items: center;
+          -ms-align-items: center;
+          -o-align-items: center;
+          -khtml-align-items: center;
+          align-items: center;
+          -webkit-justify-content: center;
+          -moz-justify-content: center;
+          -ms-justify-content: center;
+          -o-justify-content: center;
+          -khtml-justify-content: center;
+          justify-content: center;
+          .social_login{
+            width: 3.33vw;
+            margin: 0 0.83vw;
+            cursor: pointer;
+            img{
+              width: 100%;
+              max-width: 100%;
+            }
+          }
+        }
+      }
+    }
+    &.jardin_save_results_popup{
+      .jardin_popup_inner{
+        .result_icon{
+          width: 11.11vw;
+          margin: 0 auto 2.22vw;
+          img{
+            width: 100%;
+            max-width: 100%;
+          }
+        }
+        .popup_title{
+          margin-bottom: 1.67vw;
+        }
+        .popup_subtitle {
+          margin-bottom: 2.22vw;
+        }
+        .social_login_options{
+          display: -webkit-box;
+          display: -moz-box;
+          display: -webkit-flex;
+          display: -ms-flexbox;
+          display: flex;
+          -webkit-align-items: center;
+          -moz-align-items: center;
+          -ms-align-items: center;
+          -o-align-items: center;
+          -khtml-align-items: center;
+          align-items: center;
+          -webkit-justify-content: center;
+          -moz-justify-content: center;
+          -ms-justify-content: center;
+          -o-justify-content: center;
+          -khtml-justify-content: center;
+          justify-content: center;
+          .social_login{
+            width: 3.33vw;
+            margin: 0 0.83vw;
+            cursor: pointer;
+            img{
+              width: 100%;
+              max-width: 100%;
+            }
+          }
+        }
+      }
+      &.jardin_popup_wrapper_horizontal{
+        .jardin_popup_inner{
+          width: 520px;
+          min-height: 272px;
+          padding: 16px 0;
+          -webkit-box-sizing: border-box;
+          -moz-box-sizing: border-box;
+          box-sizing: border-box;
+          max-height: 100%;
+          overflow: hidden;
+          .result_icon{
+            width: 96px;
+            margin: 0 auto 16px;
+          }
+          .popup_title{
+            margin-bottom: 8px;
+            font-size: 32px;
+            line-height: 32px;
+          }
+          .popup_subtitle {
+            margin-bottom: 20px;
+            font-size: 16px;
+            line-height: 24px;
+          }
+          .social_login_options{
+            .social_login{
+              width: 40px;
+              margin: 0 12px;
+            }
+          }
+        }
+      }
+    }
+    &.jardin_contact_form_popup{
+      .jardin_popup_inner{
+        .popup_title{
+          margin-bottom: 1.67vw;
+        }
+        .jardin_contact_form{
+          display: -webkit-box;
+          display: -moz-box;
+          display: -webkit-flex;
+          display: -ms-flexbox;
+          display: flex;
+          -webkit-flex-wrap: wrap;
+          -moz-flex-wrap: wrap;
+          -ms-flex-wrap: wrap;
+          -o-flex-wrap: wrap;
+          -khtml-flex-wrap: wrap;
+          flex-wrap: wrap;
+          -webkit-justify-content: space-between;
+          -moz-justify-content: space-between;
+          -ms-justify-content: space-between;
+          -o-justify-content: space-between;
+          -khtml-justify-content: space-between;
+          justify-content: space-between;
+          .formRow {
+            position: relative;
+            width: 100%;
+            margin-bottom: 1.67vw;
+            &.formRow_input{
+              width: calc(50% - 0.83vw);
+            }
+            &--item {
+              display: block;
+              width: 100%;
+            }
+            &--textarea{
+              height: 6.67vw;
+              -webkit-box-sizing: border-box;
+              -moz-box-sizing: border-box;
+              box-sizing: border-box;
+            }
+            &--input {
+              position: relative;
+              padding: 0.83vw 1.11vw;
+              width: 100%;
+              outline: none;
+              border: 1px solid #777670;
+              box-sizing: border-box;
+              font-style: normal;
+              font-weight: normal;
+              font-size: 1.25vw;
+              line-height: 1.67vw;
+              color: #C3C3C3;
+              resize: none;
+              transition: all .2s ease;
+              background: #262422;
+              &-wrapper {
+                position: relative;
+                display: block;
+                width: 100%;
+                &.active {
+                  .placeholder {
+                    top: -0.525vw;
+                    background: #262422;
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 0.97vw;
+                    line-height: 1.11vw;
+                    color: #777670;
+                    transform: translateY(0);
+                  }
+                  .formRow--input:not(:focus):not(:hover) {
+                    & ~ .placeholder {
+                      color: #777670;
+                    }
+                  }
+                }
+                .formRow--input {
+                  &:focus,
+                  &:hover {
+                    border-color: #887C47;
+                  }
+                }
+              }
+              &.error{
+                border: 1px solid #D73636;
+                color: #D73636;
+              }
+
+            }
+            .error_message{
+              display: block;
+              position: absolute;
+              left: 0.55vw;
+              bottom:-0.25vw;
+              color: #D73636;
+              -webkit-transform: translateY(100%);
+              -moz-transform: translateY(100%);
+              -ms-transform: translateY(100%);
+              -o-transform: translateY(100%);
+              transform: translateY(100%);
+            }
+            .placeholder {
+              position: absolute;
+              top: 0.83vw;
+              left: 0.69vw;
+              display: block;
+              padding: 0 0.28vw;
+              white-space: nowrap;
+              font-style: normal;
+              font-weight: normal;
+              font-size: 1.25vw;
+              line-height: 1.67vw;
+              color: #C3C3C3;
+              transition: all, .2s;
+              pointer-events: none;
+              user-select: none;
+            }
+          }
+          .jardin_form_submit{
+            outline: none;
+            border: none;
+            margin: 1.67vw auto 0;
+            font-size: 1.39vw;
+            line-height: 1.67vw;
+            width: 16.67vw;
+            height: 4.03vw;
+            align-items: center;
+            text-transform: uppercase;
+            color: #14110E;
+          }
+        }
+      }
+      &.jardin_contact_form_sent_popup{
+        .jardin_popup_inner{
+          .form_sent_icon{
+            width: 11.11vw;
+            margin: 0 auto 2.22vw;
+            img{
+              width: 100%;
+              max-width: 100%;
+            }
+          }
+          .popup_title{
+            margin-bottom: 1.67vw;
+          }
+        }
+      }
+    }
+    &.jardin_user_blocked_popup{
+      .jardin_popup_inner{
+        padding: 6.24vw 2.78vw;
+        .result_icon{
+          width: 11.11vw;
+          margin: 0 auto 2.22vw;
+          img{
+            width: 100%;
+            max-width: 100%;
+          }
+        }
+        .popup_title{
+          margin-bottom: 1.11vw;
+        }
+        .popup_subtitle {
+          margin-bottom: 1.67vw;
+        }
+        .popup_link{
+          font-style: normal;
+          font-weight: bold;
+          font-size: 1.53vw;
+          line-height: 1.67vw;
+          display: -webkit-box;
+          display: -moz-box;
+          display: -webkit-flex;
+          display: -ms-flexbox;
+          display: flex;
+          -webkit-align-items: center;
+          -moz-align-items: center;
+          -ms-align-items: center;
+          -o-align-items: center;
+          -khtml-align-items: center;
+          align-items: center;
+          -webkit-justify-content: center;
+          -moz-justify-content: center;
+          -ms-justify-content: center;
+          -o-justify-content: center;
+          -khtml-justify-content: center;
+          justify-content: center;
+          text-decoration: none;
+          color: #887C47;
+        }
+      }
+      &.jardin_popup_wrapper_horizontal{
+        .jardin_popup_inner{
+          width: 520px;
+          height: 272px;
+          padding: 16px 0;
+          -webkit-box-sizing: border-box;
+          -moz-box-sizing: border-box;
+          box-sizing: border-box;
+          max-height: 100%;
+          overflow: hidden;
+          .result_icon{
+            width: 96px;
+            margin: 0 auto 16px;
+          }
+          .popup_title{
+            margin-bottom: 8px;
+            font-size: 32px;
+            line-height: 32px;
+          }
+          .popup_subtitle {
+            margin-bottom: 20px;
+            font-size: 16px;
+            line-height: 24px;
+          }
+          .social_login_options{
+            .social_login{
+              width: 40px;
+              margin: 0 12px;
+            }
+          }
+        }
+      }
+    }
+  }
+  #scroll_up{
+    position: fixed;
+    bottom: 7.22vw;
+    right: 8.33vw;
+    width: 3.33vw;
+    height: 3.33vw;
+    background-image: url("../img/scroll_up.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    z-index: 100;
+  }
+}
+@media screen and (min-width: 1440px){
+  .jardin_page_wrapper{
+    padding: 0;
+    background-image: url("../img/bg.png");
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    .jardin_page_container{
+      max-width: 1440px;
+      margin: 0 auto;
+      padding: 0 120px;
+      -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      box-sizing: border-box;
+      overflow: visible;
+      .link{
+        font-size: 22px;
+        line-height: 24px;
+      }
+      .title_h1{
+        font-size: 64px;
+        line-height: 72px;
+      }
+      .title_h2{
+        font-size: 56px;
+        line-height: 56px;
+      }
+      .title_h3{
+        font-size: 40px;
+        line-height: 32px;
+      }
+      .text_t1{
+        font-size: 32px;
+        line-height: 40px;
+      }
+      .text_t2{
+        font-size: 24px;
+        line-height:32px;
+      }
+      .text_t3{
+        font-size: 18px;
+        line-height: 24px;
+      }
+      .jardin_button{
+        font-size: 32px;
+        line-height: 32px;
+        text-transform: uppercase;
+        &.play_button{
+          .arrow{
+            margin-left: 16px;
+            width: 64px;
+          }
+        }
+      }
+      .jardin_page_header{
+        padding:  32px 0;
+        .jardin_main_nav{
+          .main_menu{
+            .menu_link_wrapper{
+              margin-right: 32px;
+            }
+          }
+        }
+        .user_profile_wrapper{
+          .user_icon{
+            width: 24px;
+            margin-right: 8px;
+          }
+          &.logged_in_profile{
+            .user_icon{
+              width: 32px;
+              max-width: 32px;
+            }
+          }
+        }
+      }
+      .first_section{
+        padding: 0 0 162px 0;
+        .logo_wrapper{
+          width: 172px;
+          margin-bottom: 32px;
+        }
+        .jardin_page_title{
+          max-width: 498px;
+          margin-bottom: 16px;
+        }
+        .jardin_text_block{
+          max-width: 400px;
+          margin-bottom: 32px;
+
+        }
+        .jardin_info_block{
+          .packs_wrapper{
+            .jardin_product{
+              width: 88px;
+              margin-right: 6px;
+            }
+          }
+          .play_button{
+            margin: 0 0 48px 150px;
+            width: 306px;
+            height: 85px;
+          }
+          .jardin_cup{
+            width: 613px;
+            height: 795px;
+            background-image: url("../img/jardin_cup.png");
+            background-size: contain;
+            background-position: center;
+            bottom: -10px;
+            right: -35px;
+          }
+        }
+      }
+      .how_to_play_section{
+        .jardin_section_title{
+          margin-bottom: 64px;
+        }
+        .how_to_lay_steps_wrapper{
+          .play_button{
+            margin: 30px 162px 0 0;
+            width: 306px;
+            height: 86px;
+          }
+          .game_step{
+            width: 468px;
+            .step_icon{
+              margin-bottom: 40px;
+            }
+            .step_description{
+              .text_t1{
+                margin-bottom: 19px;
+              }
+            }
+            &:nth-child(1){
+              .step_icon{
+                max-width: 244px;
+              }
+            }
+            &:nth-child(2){
+              .step_icon{
+                max-width: 254px;
+              }
+            }
+            &:nth-child(3){
+              margin-top: -60px;
+              .step_icon{
+                margin-bottom: 16px;
+                max-width: 261px;
+                margin-left: 59px;
+              }
+            }
+          }
+        }
+      }
+      .prizes_section{
+        padding: 241px 0 63px 0;
+        margin-bottom: 85px;
+        .prizes_steps{
+          max-width: 564px;
+          .prize_step{
+            width: 250px;
+            margin-bottom: 64px;
+            .step_icon{
+              margin: 0 auto 20px;
+              width: 112px;
+            }
+          }
+        }
+        .prizes_image_wrapper{
+          width: 858px;
+          right: -78px;
+          &:before{
+            //width: 963px;
+            //height: 2095.92px;
+            //right: -140px;
+            //top:-753px;
+            display: none;
+          }
+        }
+      }
+      .standings_section{
+        margin-bottom: 120px;
+        .jardin_section_title{
+          margin-bottom: 48px;
+        }
+        .standings_tabs_wrapper{
+          .result_table_position{
+            width: 63px;
+            margin-right: 39px;
+          }
+          .result_table_name{
+            width: 282px;
+          }
+          .result_table_round{
+            width: 61px;
+            margin: 0 32.4px;
+          }
+          .result_table_round_number{
+            width: 65px;
+            margin-right: 40px;
+          }
+          .result_table_total{
+            width:65px;
+          }
+          .result_table_datetime{
+            width: 165px;
+            //margin-left: 100px;
+            margin-left: auto;
+          }
+          .mCSB_container{
+            margin-right: 30px;
+          }
+          .tabs_header{
+            margin-bottom: 32px;
+            .result_week{
+              width: 300px;
+              height: 80px;
+            }
+          }
+          .result_table_header{
+            margin-bottom: 20px;
+          }
+          .standings_tab_content{
+            margin-right: -30px;
+            .weekly_results_table{
+              height: 324px;
+              .mCSB_container{
+                padding-bottom: 150px;
+              }
+              &:after{
+                height: 149px;
+              }
+              .result_row{
+                padding: 12px 0;
+                .result_table_name{
+                  width: 375px;
+                  margin-right: 32.4px;
+                }
+              }
+            }
+          }
+        }
+      }
+      .shops_section{
+        .jardin_section_title{
+          margin-bottom: 49px;
+        }
+        .shop_slider_title{
+          margin-bottom:25px;
+        }
+        .jardin_shops_slider{
+          padding: 0 72px;
+          margin-bottom: 24px;
+          .jardin_shop{
+            padding: 0 30px;
+          }
+        }
+        .jardin_shops_slider_nav{
+          margin:0 auto 60px;
+        }
+      }
+      .contact_section{
+        padding-top: 50px;
+        padding-bottom: 60px;
+        .jardin_section_title{
+          margin-bottom: 48px;
+        }
+        .contact_wrapper{
+          .contact_button{
+            width: 240px;
+            height: 58px;
+            font-size: 20px;
+            line-height: 24px;
+            padding-top: 3px;
+            -webkit-box-sizing: content-box;
+            -moz-box-sizing: content-box;
+            box-sizing: content-box;
+          }
+          .contacts_text{
+            margin: 0 24px;
+          }
+          .contact_email{
+            font-size: 32px;
+            line-height: 40px;
+          }
+        }
+      }
+      .additional_section{
+        padding-bottom: 60px;
+        .jardin_section_title{
+          margin-bottom: 48px;
+        }
+      }
+      .jardin_page_footer{
+        padding: 32px 0;
+        .social_networks_wrapper{
+          .social_link{
+            margin-right: 20px;
+          }
+        }
+        .footer_info_links_container{
+          .info_link{
+            margin: 0 16px;
+          }
+        }
+      }
+    }
+    .jardin_popup_wrapper{
+      .jardin_popup_inner{
+        width: 588px;
+        min-height: 32px;
+        padding: 64px  49px 32px;
+        .popup_title{
+          font-size: 40px;
+        }
+        .popup_subtitle{
+          font-size: 24px;
+          line-height: 32px;
+        }
+      }
+      &.jardin_login_popup{
+        .jardin_popup_inner{
+          .popup_title{
+            margin-bottom: 48px;
+          }
+          .popup_subtitle {
+            margin-bottom: 32px;
+          }
+          .social_login_options{
+            .social_login{
+              width: 49px;
+              margin: 0 12px;
+            }
+          }
+        }
+      }
+      &.jardin_save_results_popup{
+        .jardin_popup_inner{
+          .result_icon{
+            width: 160px;
+            margin: 0 auto 32px;
+          }
+          .popup_title{
+            margin-bottom: 24px;
+          }
+          .popup_subtitle {
+            margin-bottom: 32px;
+          }
+          .social_login_options{
+            .social_login{
+              width: 48px;
+              margin: 0 12px;
+              cursor: pointer;
+            }
+          }
+        }
+      }
+      &.jardin_contact_form_popup{
+        .jardin_popup_inner{
+          .popup_title{
+            margin-bottom: 24px;
+          }
+          .jardin_contact_form{
+            .formRow {
+              margin-bottom: 24px;
+              &.formRow_input{
+                width: calc(50% - 12px);
+              }
+              &--textarea{
+                height: 96px;
+              }
+              &--input {
+                padding: 12px 16px;
+                font-size: 18px;
+                line-height: 24px;
+                &-wrapper {
+                  &.active {
+                    .placeholder {
+                      top: -7.56px;
+                      font-size: 14px;
+                      line-height: 16px;
+                    }
+                  }
+                }
+              }
+              .error_message{
+                left: 7.92px;
+                bottom:-3.6px;
+              }
+              .placeholder {
+                top: 12px;
+                left: 10px;
+                padding: 0 4px;
+                font-size: 18px;
+                line-height: 24px;
+              }
+            }
+            .jardin_form_submit{
+              margin: 24px auto 0;
+              font-size: 20px;
+              line-height: 24px;
+              width: 240px;
+              height: 58px;
+            }
+          }
+        }
+        &.jardin_contact_form_sent_popup{
+          .jardin_popup_inner{
+            .form_sent_icon{
+              width: 160px;
+              margin: 0 auto 32px;
+            }
+            .popup_title{
+              margin-bottom: 24px;
+            }
+          }
+        }
+      }
+      &.jardin_user_blocked_popup{
+        .jardin_popup_inner{
+          padding: 64px  24px 32px;
+          .result_icon{
+            width: 160px;
+            margin: 0 auto 32px;
+          }
+          .popup_title{
+            margin-bottom: 16px;
+          }
+          .popup_subtitle {
+            margin-bottom: 24px;
+          }
+          .popup_link{
+            font-size: 22px;
+            line-height: 24px;
+          }
+        }
+      }
+    }
+    #scroll_up{
+      bottom: 104px;
+      right: 120px;
+      width: 48px;
+      height: 48px;
+    }
+  }
+}
+@media screen and (max-width: 1439px){
+  .jardin_page_wrapper{
+    padding: 0 4.3vw;
+    .link{
+      font-size: 2.15vw;
+      line-height: 2.34vw;
+      color: #777670;
+    }
+    .title_h1{
+      font-size: 5.47vw;
+      line-height: 5.47vw;
+    }
+    .title_h2{
+      font-size: 3.9vw;
+      line-height: 5.47vw;
+    }
+    .title_h3{
+      font-size: 3.125vw;
+      line-height: 3.125vw;
+    }
+    .text_t1{
+      font-size: 2.34vw;
+      line-height: 3.125vw;
+    }
+    .text_t2{
+      font-size: 1.76vw;
+      line-height: 2.134vw;
+    }
+    .text_t3{
+      font-size: 1.76vw;
+      line-height: 2.34vw;
+    }
+    .jardin_button{
+      font-size: 3.125vw;
+      line-height: 3.125vw;
+      &.play_button{
+        .arrow{
+          margin-left: 1.56vw;
+          width: 6.25vw;
+        }
+      }
+    }
+    .jardin_page_header{
+      padding:  2.34vw 0;
+      margin-bottom: 3.125vw;
+      .jardin_main_nav{
+        .main_menu{
+          .menu_link_wrapper{
+            margin-right: 3.125vw;
+            .menu_link{
+              color: #777670;
+            }
+          }
+        }
+      }
+      .user_profile_wrapper{
+        .user_icon{
+          width: 2.34vw;
+          margin-right: 0.78vw;
+        }
+      }
+    }
+    .first_section{
+      padding: 0 0 14.06vw 0;
+      &:after{
+        right: -4.3vw;
+        top:0;
+        width: 100%;
+        height: 100%;
+      }
+      .logo_wrapper{
+        width: 13.28vw;
+        margin-bottom: 4.69vw;
+      }
+      .jardin_page_title{
+        max-width: 42.57vw;
+        margin-bottom: 1.11vw;
+      }
+      .jardin_text_block{
+        max-width: 35.84vw;
+        margin-bottom: 7.22vw;
+
+      }
+      .jardin_info_block{
+        .packs_wrapper{
+          .jardin_product{
+            width: 6.94vw;
+            margin-right: 0.49vw;
+          }
+        }
+        .play_button{
+          margin: 0 0 4.88vw 10.79vw;
+          width: 23.44vw;
+          height: 5.66vw;
+          font-size: 1.95vw;
+          line-height: 2.34vw;
+          .arrow{
+            width: 4.69vw;
+          }
+        }
+        .jardin_cup{
+          width: 67.58vw;
+          height: 76vw;
+          background-image: url("../img/jardin_cup_md.png");
+          bottom: -8.55vw;
+          right: -4.3vw;
+
+        }
+      }
+    }
+    .how_to_play_section{
+      .jardin_section_title{
+        margin-bottom: 6.25vw;
+      }
+      .how_to_lay_steps_wrapper{
+        .play_button{
+          margin: 5.08vw 6.9vw 0 0;
+          width: 29.88vw;
+          height: 8.4vw;
+        }
+        .game_step{
+          width: 36.72vw;
+          .step_icon{
+            margin-bottom: 3.9vw;
+          }
+          .step_description{
+            .text_t1{
+              margin-bottom: 1.56vw;
+            }
+          }
+          &:nth-child(1){
+            .step_icon{
+              max-width: 23.83vw;
+            }
+          }
+          &:nth-child(2){
+            .step_icon{
+              max-width: 24.8vw;
+            }
+          }
+          &:nth-child(3){
+            margin-top: -4.17vw;
+            .step_icon{
+              margin-bottom: 1.56vw;
+              max-width: 25.5vw;
+              margin-left: 5.76vw;
+            }
+          }
+        }
+      }
+    }
+    .prizes_section{
+      padding: 9.7vw 0 8.88vw 0;
+      margin-bottom: 4.88vw;
+      .prizes_steps{
+        max-width: 44.53vw;
+        .prize_step{
+          width: 21.09vw;
+          margin-bottom: 6.25vw;
+          .step_icon{
+            margin: 0 auto 1.95vw;
+            width: 10.94vw;
+          }
+        }
+      }
+      .prizes_image_wrapper{
+        width: 68.94vw;
+        bottom: 0;
+        right: -5.42vw;
+        &:before{
+          width: 64.55vw;
+          height: 126.55vw;
+          right: -15.5vw;
+          top:auto;
+          bottom: 13.96vw;
+        }
+      }
+    }
+    .standings_section{
+      margin-bottom: 7.03vw;
+      .jardin_section_title{
+        margin-bottom: 4.69vw;
+      }
+      .standings_tabs_wrapper{
+        .result_table_position{
+          width: 6.15vw;
+          margin-right: 3.03vw;
+        }
+        .result_table_name{
+          width: 20.7vw;
+        }
+        .result_table_round{
+          width: 5.96vw;
+          margin: 0 1.61vw;
+        }
+        .result_table_round_number{
+          width: 4.49vw;
+          margin-right: 4.69vw;
+        }
+        .result_table_total{
+          width: 6.3vw;
+        }
+        .result_table_datetime{
+          width: 12.6vw;
+          //margin-left: 4.23vw;
+          white-space: nowrap;
+        }
+        .tabs_header{
+          margin-bottom: 4.69vw;
+          -webkit-justify-content: flex-start;
+          -moz-justify-content: flex-start;
+          -ms-justify-content: flex-start;
+          -o-justify-content: flex-start;
+          -khtml-justify-content: flex-start;
+          justify-content: flex-start;
+          .result_week{
+            width: 18.36vw;
+            height: 6.25vw;
+          }
+        }
+        .result_table_header{
+          margin-bottom: 2.34vw;
+        }
+        .standings_tab_content{
+          .weekly_results_table{
+            height: 28.9vw;
+            padding-bottom: 0;
+            .mCSB_container{
+              padding-bottom: 16.5vw;
+            }
+            &:after{
+              height: 16.3vw;
+              bottom: -15px;
+            }
+            .result_row{
+              padding: 0.78vw 0;
+              margin-bottom: 1.66vw;
+              .result_table_name{
+                width: 28.27vw;
+                margin-right: 1.61vw;
+              }
+            }
+          }
+        }
+      }
+    }
+    .shops_section{
+      .jardin_section_title{
+        margin-bottom: 3.9vw;
+      }
+      .shop_slider_title{
+        margin-bottom: 3.125vw;
+      }
+      .jardin_shops_slider{
+        padding: 0;
+        margin: 0 -2.19vw 2.34vw;
+        .jardin_shop{
+          padding: 0 2.19vw;
+        }
+      }
+      .jardin_shops_slider_nav{
+        margin:0 auto 4vw;
+      }
+    }
+    .contact_section{
+      padding-top: 5.86vw;
+      padding-bottom: 6.25vw;
+      .jardin_section_title{
+        margin-bottom: 3.9vw;
+      }
+      .contact_wrapper{
+        -webkit-align-items: center;
+        -moz-align-items: center;
+        -ms-align-items: center;
+        -o-align-items: center;
+        -khtml-align-items: center;
+        align-items: center;
+        .contact_button{
+          width: 23.44vw;
+          height: 5.66vw;
+          font-size: 1.95vw;
+          line-height: 2.34vw;
+        }
+        .contacts_text{
+          margin: 0 3.125vw;
+        }
+        .contact_email{
+          font-size: 2.15vw;
+          line-height: 2.34vw;
+          text-decoration: none;
+        }
+      }
+    }
+    .additional_section{
+      padding-bottom: 6.25vw;
+      .jardin_section_title{
+        margin-bottom: 3.9vw;
+      }
+    }
+    .jardin_page_footer{
+      padding: 2.22vw 0;
+      .social_networks_wrapper{
+        .social_link{
+          margin-right: 1.95vw;
+
+        }
+      }
+      .footer_info_links_container{
+        .info_link{
+          margin: 0 1.6vw;
+        }
+      }
+    }
+    .jardin_popup_wrapper{
+      .jardin_popup_inner{
+        width: 57.42vw;
+        min-height: 3.12vw;
+        padding: 6.24vw 4.78vw;
+        .popup_title{
+          font-size: 3.9vw;
+          line-height: 100%;
+        }
+        .popup_subtitle{
+          font-size: 2.34vw;
+          line-height: 3.125vw;
+        }
+      }
+      &.jardin_login_popup{
+        .jardin_popup_inner{
+
+          .popup_title{
+            margin-bottom: 4.68vw;
+          }
+          .popup_subtitle {
+            margin-bottom: 3.12vw;
+          }
+          .social_login_options{
+            .social_login{
+              width: 4.68vw;
+              margin: 0 1.167vw;
+            }
+          }
+        }
+      }
+      &.jardin_save_results_popup{
+        .jardin_popup_inner{
+          .result_icon{
+            width: 15.62vw;
+            margin: 0 auto 3.12vw;
+          }
+          .popup_title{
+            margin-bottom: 2.35vw;
+          }
+          .popup_subtitle {
+            margin-bottom: 3.12vw;
+          }
+          .social_login_options{
+            .social_login{
+              width: 4.68vw;
+              margin: 0 1.167vw;
+            }
+          }
+        }
+      }
+      &.jardin_contact_form_popup{
+        .jardin_popup_inner{
+          .popup_title{
+            margin-bottom: 2.35vw;
+          }
+          .jardin_contact_form{
+            .formRow {
+              margin-bottom: 2.35vw;
+              &.formRow_input{
+                width: calc(50% - 1.17vw);
+              }
+              &--textarea{
+                height: 9.38vw;
+              }
+              &--input {
+                padding: 1.17vw 1.56vw;
+                font-size: 1.76vw;
+                line-height: 2.35vw;
+                &-wrapper {
+                  &.active {
+                    .placeholder {
+                      top: -0.74vw;
+                      font-size: 1.36vw;
+                      line-height: 1.56vw;
+                    }
+                  }
+                }
+              }
+              .error_message{
+                left: 0.77vw;
+                bottom:-0.35vw;
+              }
+              .placeholder {
+                top: 1.17vw;
+                left: 0.97vw;
+                padding: 0 0.39vw;
+                font-size: 1.76vw;
+                line-height: 2.35vw;
+              }
+            }
+            .jardin_form_submit{
+              margin: 2.35vw auto 0;
+              font-size: 1.95vw;
+              line-height: 2.35vw;
+              width: 22.44vw;
+              height: 5.67vw;
+            }
+          }
+        }
+        &.jardin_contact_form_sent_popup{
+          .jardin_popup_inner{
+            .form_sent_icon{
+              width: 15.62vw;
+              margin: 0 auto 3.12vw;
+            }
+            .popup_title{
+              margin-bottom: 2.35vw;
+            }
+          }
+        }
+      }
+      &.jardin_user_blocked_popup{
+        .jardin_popup_inner{
+          padding: 6.24vw 2.34vw;
+          .result_icon{
+            width: 15.62vw;
+            margin: 0 auto 3.12vw;
+          }
+          .popup_title{
+            margin-bottom: 1.56vw;
+          }
+          .popup_subtitle {
+            margin-bottom: 2.34vw;
+          }
+          .popup_link{
+            font-size: 2.15vw;
+            line-height: 2.34vw;
+          }
+        }
+      }
+    }
+    #scroll_up{
+      bottom: 10.15vw;
+      right: 4.49vw;
+      width: 4.69vw;
+      height: 4.69vw;
+    }
+  }
+}
+@media screen and (max-width: 1023px){
+  .jardin_page_wrapper{
+    padding: 0 4.68vw;
+    .link{
+      font-size: 2.08vw;
+      line-height: 3.125vw;
+    }
+    .title_h1{
+      font-size: 7.29vw;
+      line-height: 7.29vw;
+    }
+    .title_h2{
+      font-size: 5.2vw;
+      line-height: 7.29vw;
+    }
+    .title_h3{
+      font-size: 2.34vw;
+      line-height: 3.125vw;
+      text-transform: lowercase;
+    }
+    .text_t1{
+      font-size: 3.125vw;
+      line-height: 4.17vw;
+    }
+    .text_t2{
+      font-size: 3.125vw;
+      line-height: 4.17vw;
+    }
+    .text_t3{
+      font-size: 2.34vw;
+      line-height: 3.125vw;
+    }
+    .jardin_button{
+      font-size: 2.6vw;
+      line-height: 3.125vw;
+      &.play_button{
+        .arrow{
+          margin-left: 2.08vw;
+          width: 6.25vw;
+        }
+      }
+    }
+    .jardin_page_header{
+      padding:  3.125vw 0;
+      margin-bottom: 4.17vw;
+      .jardin_main_nav{
+        .main_menu{
+          .menu_link_wrapper{
+            margin-right: 3.125vw;
+          }
+        }
+      }
+      .user_profile_wrapper{
+        .user_icon{
+          width: 4.16vw;
+          margin-right: 1.04vw;
+        }
+        .log_out{
+          width: 20px;
+        }
+      }
+    }
+    .first_section{
+      padding: 0 0 27.06vw 0;
+      .logo_wrapper{
+        width: 17.7vw;
+        margin-bottom: 6.77vw;
+      }
+      .jardin_page_title{
+        max-width: 32.77vw;
+        margin-bottom: 2.08vw;
+      }
+      .jardin_text_block{
+        max-width: 50.78vw;
+        margin-bottom: 3.125vw;
+
+      }
+      .jardin_info_block{
+        -webkit-flex-direction: column;
+        -moz-flex-direction: column;
+        -ms-flex-direction: column;
+        -o-flex-direction: column;
+        -khtml-flex-direction: column;
+        flex-direction: column;
+        -webkit-align-items: flex-start;
+        -moz-align-items: flex-start;
+        -ms-align-items: flex-start;
+        -o-align-items: flex-start;
+        -khtml-align-items: flex-start;
+        align-items: flex-start;
+        .packs_wrapper{
+          .jardin_product{
+            width: 9.26vw;
+            margin-right: 0.65vw;
+          }
+        }
+        .play_button{
+          margin: 8.33vw 0 4.88vw 0;
+          width: 26vw;
+          height: 7.55vw;
+          font-size: 2.6vw;
+          line-height: 3.125vw;
+          .arrow{
+            width: 6.25vw;
+          }
+        }
+        .jardin_cup{
+          width: 90.88vw;
+          height: 120.6vw;
+          bottom: -16vw;
+          right: -4.7vw;
+          background-image: url("../img/jardin_cup_sm.png");
+        }
+      }
+    }
+    .how_to_play_section{
+      .jardin_section_title{
+        margin-bottom: 8.33vw;
+      }
+      .how_to_lay_steps_wrapper{
+        .play_button{
+          margin: 5.08vw 17vw 0 0;
+          width: 26vw;
+          height: 7.55vw;
+        }
+        .game_step{
+          width: 43.75vw;
+          .step_icon{
+            margin-bottom: 4.17vw;
+          }
+          .step_description{
+            .text_t1{
+              margin-bottom: 2.08vw;
+            }
+          }
+          &:nth-child(1){
+            .step_icon{
+              max-width: 26.9vw;
+            }
+          }
+          &:nth-child(2){
+            .step_icon{
+              max-width: 28.38vw;
+            }
+          }
+          &:nth-child(3){
+            margin-top: -4.17vw;
+            .step_icon{
+              margin-bottom: 6.38vw;
+              max-width: 28.125vw;
+              margin-left: 5.76vw;
+            }
+          }
+        }
+      }
+    }
+    .prizes_section{
+      padding: 13.02vw 0 0 0;
+      margin-bottom: 0;
+      .prizes_steps{
+        max-width: 100%;
+        .prize_step{
+          width: 28.125vw;
+          margin-bottom: 6.25vw;
+          .step_icon{
+            margin: 0 auto 2.6vw;
+            width: 14.58vw;
+          }
+        }
+      }
+      .prizes_image_wrapper{
+        width: 100%;
+        bottom: 17vw;
+        right: -4.42vw;
+        position: relative;
+        &:before{
+          width: 86.06vw;
+          height: 147vw;
+          right: -19.5vw;
+          top: auto;
+          bottom: 18.96vw;
+        }
+      }
+    }
+    .standings_section{
+      margin-bottom: 7.03vw;
+      .jardin_section_title{
+        margin-bottom: 4.17vw;
+      }
+      .standings_tabs_wrapper{
+        .text_t2{
+          font-size: 2.34vw;
+          line-height: 3.125vw;
+        }
+        .result_table_position{
+          width: 8.2vw;
+          margin-right: 4.03vw;
+        }
+        .result_table_name{
+          width: 43vw;
+          margin-right: 1.14vw;
+        }
+        .result_table_round{
+          display: none;
+        }
+        .result_table_round_number{
+          display: none;
+        }
+        .result_table_total{
+          width: 8.46vw;
+        }
+        .result_table_datetime{
+          width: 16.8vw;
+          //margin-left: 4.38vw;
+          white-space: nowrap;
+        }
+        .tabs_header{
+          margin-bottom: 4.16vw;
+          .result_week{
+            width: 20.31vw;
+            height: 6.25vw;
+          }
+        }
+        .result_table_header{
+          margin-bottom: 4.16vw;
+        }
+        .standings_tab_content{
+          .weekly_results_table{
+            height: 34.375vw;
+            padding-bottom: 0;
+            .mCSB_container{
+              padding-bottom: 15vw;
+            }
+            &:after{
+              height: 14.7vw;
+              bottom: -15px;
+            }
+            .result_row{
+              padding: 1.04vw 0;
+              margin-bottom: 1.04vw;
+              .result_table_name{
+                width: 43vw;
+                margin-right: 1.14vw;
+              }
+            }
+          }
+        }
+      }
+    }
+    .shops_section{
+      .jardin_section_title{
+        margin-bottom: 4.17vw;
+      }
+      .shop_slider_title{
+        margin-bottom:4.17vw;
+      }
+      .jardin_shops_slider{
+        padding: 0;
+        margin: 0 -1.56vw 4.16vw;
+        .jardin_shop{
+          padding: 0 1.56vw;
+        }
+      }
+      .jardin_shops_slider_nav{
+        margin:0 auto 6.5vw;
+      }
+    }
+    .contact_section{
+      padding-top: 5vw;
+      padding-bottom: 8.33vw;
+      .jardin_section_title{
+        margin-bottom: 5.2vw;
+      }
+      .contact_wrapper{
+        .contact_button{
+          width: 31.25vw;
+          height: 7.55vw;
+          font-size: 2.6vw;
+          line-height: 3.125vw;
+        }
+        .contacts_text{
+          margin: 0 2.125vw;
+        }
+        .contact_email{
+          font-size: 2.86vw;
+          line-height: 3.125vw;
+          text-decoration: none;
+        }
+      }
+    }
+    .additional_section{
+      padding-bottom: 8.33vw;
+      .jardin_section_title{
+        margin-bottom: 5.2vw;
+      }
+    }
+    .jardin_page_footer{
+      padding: 1.04vw 0;
+      -webkit-flex-direction: column;
+      -moz-flex-direction: column;
+      -ms-flex-direction: column;
+      -o-flex-direction: column;
+      -khtml-flex-direction: column;
+      flex-direction: column;
+      -webkit-justify-content: center;
+      -moz-justify-content: center;
+      -ms-justify-content: center;
+      -o-justify-content: center;
+      -khtml-justify-content: center;
+      justify-content: center;
+      -webkit-align-items: center;
+      -moz-align-items: center;
+      -ms-align-items: center;
+      -o-align-items: center;
+      -khtml-align-items: center;
+      align-items: center;
+      .social_networks_wrapper{
+        .social_link{
+          margin: 0 1.3vw 2.08vw;
+
+        }
+      }
+      .footer_info_links_container{
+        .info_link{
+          margin: 0 2.15vw 2.08vw;
+        }
+      }
+    }
+    .jardin_popup_wrapper{
+      .jardin_popup_inner{
+        width: 76.56vw;
+        min-height: 4.16vw;
+        max-height: 96vh;
+        overflow: auto;
+        padding: 8.32vw 6.37vw;
+        .popup_title{
+          font-size: 5.2vw;
+          line-height: 100%;
+        }
+        .popup_subtitle{
+          font-size: 3.12vw;
+          line-height: 4.167vw;
+        }
+      }
+      &.jardin_login_popup{
+        .jardin_popup_inner{
+
+          .popup_title{
+            margin-bottom: 6.24vw;
+          }
+          .popup_subtitle {
+            margin-bottom: 4.16vw;
+          }
+          .social_login_options{
+            .social_login{
+              width: 6.24vw;
+              margin: 0 1.56vw;
+            }
+          }
+        }
+      }
+      &.jardin_save_results_popup{
+        .jardin_popup_inner{
+          .result_icon{
+            width: 20.83vw;
+            margin: 0 auto 4.16vw;
+          }
+          .popup_title{
+            margin-bottom: 3.13vw;
+          }
+          .popup_subtitle {
+            margin-bottom: 4.16vw;
+          }
+          .social_login_options{
+            .social_login{
+              width: 6.24vw;
+              margin: 0 1.56vw;
+            }
+          }
+        }
+      }
+      &.jardin_contact_form_popup{
+        .jardin_popup_inner{
+          .popup_title{
+            margin-bottom: 3.13vw;
+          }
+          .jardin_contact_form{
+            .formRow {
+              margin-bottom: 3.13vw;
+              &.formRow_input{
+                width: calc(50% - 1.56vw);
+              }
+              &--textarea{
+                height: 12.5vw;
+              }
+              &--input {
+                padding: 1.56vw 2.08vw;
+                font-size: 2.35vw;
+                line-height: 3.13vw;
+                &-wrapper {
+                  &.active {
+                    .placeholder {
+                      top: -0.99vw;
+                      font-size: 1.81vw;
+                      line-height: 2.08vw;
+                    }
+                  }
+                }
+              }
+              .error_message{
+                left: 1.03vw;
+                bottom:-0.47vw;
+              }
+              .placeholder {
+                top: 1.56vw;
+                left: 1.29vw;
+                padding: 0 0.52vw;
+                font-size: 2.35vw;
+                line-height: 3.13vw;
+              }
+            }
+            .jardin_form_submit{
+              margin: 3.13vw auto 0;
+              font-size: 2.6vw;
+              line-height: 3.13vw;
+              width: 29.9vw;
+              height: 7.56vw;
+            }
+          }
+        }
+        &.jardin_contact_form_sent_popup{
+          .jardin_popup_inner{
+            .form_sent_icon{
+              width: 20.83vw;
+              margin: 0 auto 4.16vw;
+            }
+            .popup_title{
+              margin-bottom: 3.13vw;
+            }
+          }
+        }
+      }
+      &.jardin_user_blocked_popup{
+        .jardin_popup_inner{
+          padding: 8.32vw 3.125vw;
+          .result_icon{
+            width: 20.83vw;
+            margin: 0 auto 4.16vw;
+          }
+          .popup_title{
+            margin-bottom: 2.08vw;
+          }
+          .popup_subtitle {
+            margin-bottom: 3.125vw;
+          }
+          .popup_link{
+            font-size: 2.86vw;
+            line-height: 3.125vw;
+          }
+        }
+      }
+    }
+    #scroll_up{
+      bottom: 17.7vw;
+      right: 4.69vw;
+      width: 4.16vw;
+      height: 4.16vw;
+    }
+  }
+}
+@media screen and (max-width: 767px){
+  .jardin_page_wrapper{
+    padding: 0 6.25vw;
+    &.jardin_page_error_wrapper{
+      .jardin_page_container{
+        .error_404_container{
+          .error_title{
+            margin-bottom: 24px;
+            font-size: 32px;
+            line-height: 40px;
+          }
+          .error_code{
+            font-size: 120px;
+            line-height: 132px;
+            margin-bottom: 16px;
+          }
+          .error_page_text{
+            margin-bottom: 24px;
+          }
+          .jardin_button{
+            width: 166px;
+            height: 46px;
+            font-size: 16px;
+            line-height: 24px;
+          }
+        }
+      }
+    }
+    .link{
+      font-size: 5.625vw;
+      line-height: 7.5vw;
+    }
+    .title_h1{
+      font-size: 11.25vw;
+      line-height: 12.5vw;
+    }
+    .title_h2{
+      font-size: 8.75vw;
+      line-height: 10vw;
+    }
+    .title_h3{
+      font-size: 5.625vw;
+      line-height: 7.5vw;
+      text-transform: lowercase;
+    }
+    .text_t1{
+      font-size: 5.625vw;
+      line-height: 7.5vw;
+    }
+    .text_t2{
+      font-size: 4.375vw;
+      line-height: 5vw;
+    }
+    .text_t3{
+      font-size: 5vw;
+      line-height: 7.5vw;
+    }
+    .jardin_page_header{
+      padding:  3.75vw 0;
+      margin-bottom: 2.5vw;
+      position: static;
+      .mobile_nav_icon{
+        display: block;
+        width: 5.86vw;
+        height: 5.16vw;
+        position: relative;
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        -o-transform: rotate(0deg);
+        transform: rotate(0deg);
+        -webkit-transition: transform .5s ease-in-out;
+        -moz-transition: transform .5s ease-in-out;
+        -o-transition: transform .5s ease-in-out;
+        transition: transform .5s ease-in-out;
+        cursor: pointer;
+        z-index: 15;
+        &.opened{
+          position: fixed;
+          left: 6.25vw;
+          top:3.75vw;
+        }
+        span{
+          display: block;
+          position: absolute;
+          height: 0.625vw;
+          width: 100%;
+          background: #887C47;
+          opacity: 1;
+          left: 0;
+          -webkit-transform: rotate(0deg);
+          -moz-transform: rotate(0deg);
+          -o-transform: rotate(0deg);
+          transform: rotate(0deg);
+          -webkit-transition: transform .25s ease-in-out;
+          -moz-transition: transform .25s ease-in-out;
+          -o-transition: transform .25s ease-in-out;
+          transition: transform .25s ease-in-out;
+        }
+        span:nth-child(1) {
+          top: 0px;
+          -webkit-transform-origin: left center;
+          -moz-transform-origin: left center;
+          -o-transform-origin: left center;
+          transform-origin: left center;
+        }
+
+        span:nth-child(2) {
+          top: 2.19vw;
+          -webkit-transform-origin: left center;
+          -moz-transform-origin: left center;
+          -o-transform-origin: left center;
+          transform-origin: left center;
+        }
+
+        span:nth-child(3) {
+          top: 4.69vw;
+          -webkit-transform-origin: left center;
+          -moz-transform-origin: left center;
+          -o-transform-origin: left center;
+          transform-origin: left center;
+        }
+
+        &.opened span:nth-child(1) {
+          -webkit-transform: rotate(45deg);
+          -moz-transform: rotate(45deg);
+          -o-transform: rotate(45deg);
+          transform: rotate(45deg);
+          top: 0;
+          left: 0;
+        }
+
+        &.opened span:nth-child(2) {
+          width: 0%;
+          opacity: 0;
+        }
+
+        &.opened span:nth-child(3) {
+          -webkit-transform: rotate(-45deg);
+          -moz-transform: rotate(-45deg);
+          -o-transform: rotate(-45deg);
+          transform: rotate(-45deg);
+          top: 4.18vw;
+          left: 0;
+        }
+      }
+      .jardin_main_nav{
+        position: fixed;
+        top:0;
+        left: 0;
+        width: 100vw;
+        height: 100vh;
+        z-index: 10;
+        background-color: rgba(0, 0, 0, 0.9);
+        padding: 15vw 6.25vw;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        overflow: auto;
+        -webkit-transform: translateX(-100%);
+        -moz-transform: translateX(-100%);
+        -ms-transform: translateX(-100%);
+        -o-transform: translateX(-100%);
+        transform: translateX(-100%);
+        -webkit-transition: transform 0.3s ease-in-out;
+        -moz-transition: transform 0.3s ease-in-out;
+        -ms-transition: transform 0.3s ease-in-out;
+        -o-transition: transform 0.3s ease-in-out;
+        transition: transform 0.3s ease-in-out;
+        &.opened{
+          -webkit-transform: translateX(0);
+          -moz-transform: translateX(0);
+          -ms-transform: translateX(0);
+          -o-transform: translateX(0);
+          transform: translateX(0);
+        }
+        .main_menu{
+          -webkit-flex-direction: column;
+          -moz-flex-direction: column;
+          -ms-flex-direction: column;
+          -o-flex-direction: column;
+          -khtml-flex-direction: column;
+          flex-direction: column;
+          .menu_link_wrapper{
+            margin-bottom: 3.125vw;
+            .menu_link{
+              color: #C3C3C3;
+              padding: 2.5vw 0;
+              width: 100%;
+              display: block;
+              text-align: center;
+            }
+          }
+        }
+      }
+      .user_profile_wrapper{
+        cursor: pointer;
+        z-index: 2;
+        .user_icon{
+          width: 7.5vw;
+          margin-right: 2.5vw;
+        }
+      }
+    }
+    .first_section{
+      padding: 0 0 23.44vw 0;
+      &:after{
+        content: '';
+        width: 100vw;
+        height: 226.88vw;
+        background-image: url("../img/ellipse_1.svg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        position: absolute;
+        right: -6vw;
+        top: -20vw;
+        z-index: 1;
+        display: none;
+      }
+      .logo_wrapper{
+        width: 30vw;
+        margin-bottom: 10vw;
+      }
+      .jardin_page_title{
+        max-width: 100%;
+        margin-bottom: 2.5vw;
+      }
+      .jardin_text_block{
+        max-width: 80vw;
+        margin-bottom: 12.5vw;
+
+      }
+      .jardin_info_block{
+        .packs_wrapper{
+          .jardin_product{
+            width: 20.79vw;
+            margin-right: 1.56vw;
+          }
+        }
+        .play_button{
+          margin: 10vw 0 4.88vw 0;
+          width: 46.25vw;
+          height: 14.375vw;
+          font-size: 5vw;
+          line-height: 7.5vw;
+          .arrow{
+            width: 9.69vw;
+            margin-left: 5vw;
+          }
+        }
+        .jardin_cup{
+          display: none;
+        }
+      }
+    }
+    .how_to_play_section{
+      .jardin_section_title{
+        margin-bottom: 10vw;
+      }
+      .how_to_lay_steps_wrapper{
+        .play_button{
+          display: none;
+        }
+        .game_step{
+          width: 100%;
+          margin-bottom: 15vw;
+          .step_icon{
+            margin-bottom: 7.5vw;
+          }
+          .step_description{
+            .text_t1{
+              max-width: 80vw;
+              margin:0 auto 5vw;
+              text-align: center;
+            }
+          }
+          &:nth-child(1){
+            .step_icon{
+              max-width: 49.375vw;
+              margin-left: 10.94vw;
+            }
+          }
+          &:nth-child(2){
+            .step_icon{
+              max-width: 49.375vw;
+              margin-left: 10.94vw;
+            }
+          }
+          &:nth-child(3){
+            margin-top: 0;
+            .step_icon{
+              margin-bottom: 7.5vw;
+              max-width: 49.375vw;
+              margin-left: 26.875vw;
+            }
+          }
+        }
+      }
+    }
+    .prizes_section{
+      padding: 0;
+      margin-bottom: 0;
+      .prizes_steps{
+        max-width: 100%;
+        .prize_step{
+          width: 37.5vw;
+          margin-bottom: 12.5vw;
+          .step_icon{
+            margin: 0 auto 5vw;
+            width: 25vw;
+          }
+          &:nth-child(2){
+            -webkit-transform: translateY(70%);
+            -moz-transform: translateY(70%);
+            -ms-transform: translateY(70%);
+            -o-transform: translateY(70%);
+            transform: translateY(70%);
+          }
+        }
+      }
+      .prizes_image_wrapper{
+        width: 100%;
+        bottom: 17vw;
+        right: -4.42vw;
+        position: relative;
+        &:before{
+          width: 141.25vw;
+          height: 218.75vw;
+          right: -25.5vw;
+          top: auto;
+          bottom: 68.96vw;
+        }
+      }
+    }
+    .standings_section{
+      margin-bottom: 7.03vw;
+      .jardin_section_title{
+        margin-bottom: 7.5vw;
+      }
+      .standings_tabs_wrapper{
+        min-height: 122.5vw;
+        .result_table_position{
+          width: 8.44vw;
+          margin-right: 5vw;
+        }
+        .result_table_name{
+          width:59vw;
+          margin-right: 7.5vw;
+        }
+        .result_table_total{
+          width: 15.31vw;
+        }
+        .result_table_datetime{
+          width: 33.125vw;
+          margin-left: 7.5vw;
+        }
+        .tabs_header{
+          margin-bottom: 10vw;
+          //min-width: 140vw;
+          .slick-track, .slick-list{
+            min-width: 100%;
+          }
+          .result_week{
+            //min-width: 48.9vw;
+            width: 48.9vw;
+            height: 15vw;
+            -webkit-flex-shrink: 0;
+            -moz-flex-shrink: 0;
+            -ms-flex-shrink: 0;
+            -o-flex-shrink: 0;
+            -khtml-flex-shrink: 0;
+            flex-shrink: 0;
+          }
+        }
+        .result_table_header{
+         display: none;
+        }
+        .standings_tab_content{
+          .weekly_results_table{
+            height: 82.5vw;
+            padding-bottom: 0;
+            min-width: 140vw;
+            .mCSB_container{
+              padding-bottom: 35vw;
+            }
+            &:after{
+              height: 34.7vw;
+              bottom: -15px;
+            }
+            .result_row{
+              padding: 2.5vw 0;
+              margin-bottom: 2.5vw;
+              .text_t2{
+                font-size: 5vw;
+                line-height: 7.5vw;
+              }
+              .result_table_name{
+                width:59vw;
+                margin-right: 1.14vw;
+              }
+            }
+          }
+        }
+      }
+    }
+    .shops_section{
+      .jardin_section_title{
+        margin-bottom: 7.5vw;
+      }
+      .shop_slider_title{
+        margin-bottom:5vw;
+      }
+      .jardin_shops_slider{
+        padding: 0;
+        margin: 0 -3.125vw 5vw;
+        .jardin_shop{
+          padding: 0 3.125vw;
+        }
+      }
+      .jardin_shops_slider_nav{
+        margin:5vw auto 15vw;
+      }
+    }
+    .contact_section{
+      padding-top: 12.5vw;
+      padding-bottom: 15vw;
+      .jardin_section_title{
+        margin-bottom: 10vw;
+      }
+      .contact_wrapper{
+        -webkit-flex-direction: column;
+        -moz-flex-direction: column;
+        -ms-flex-direction: column;
+        -o-flex-direction: column;
+        -khtml-flex-direction: column;
+        flex-direction: column;
+        -webkit-align-items: flex-start;
+        -moz-align-items: flex-start;
+        -ms-align-items: flex-start;
+        -o-align-items: flex-start;
+        -khtml-align-items: flex-start;
+        align-items: flex-start;
+        .contact_button{
+          width: 56.25vw;
+          height: 14.375vw;
+          font-size: 5vw;
+          line-height: 7.5vw;
+          margin-bottom: 7.5vw;
+        }
+        .contacts_text{
+          margin: 0 0 2.5vw;
+        }
+        .contact_email{
+          font-size: 5.625vw;
+          line-height: 7.5vw;
+          text-decoration: none;
+        }
+      }
+    }
+    .additional_section{
+      padding-bottom: 15vw;
+      .jardin_section_title{
+        margin-bottom: 10vw;
+      }
+      .section_link{
+        display: inline-block;
+      }
+    }
+    .jardin_page_footer{
+      padding: 2.5vw 0;
+      .social_networks_wrapper{
+        .social_link{
+          margin: 0 3.125vw 2.5vw;
+
+        }
+      }
+      .footer_info_links_container{
+        -webkit-flex-direction: column;
+        -moz-flex-direction: column;
+        -ms-flex-direction: column;
+        -o-flex-direction: column;
+        -khtml-flex-direction: column;
+        flex-direction: column;
+        .info_link{
+          margin: 0 auto 2.5vw;
+        }
+      }
+    }
+    .jardin_popup_wrapper{
+      .jardin_popup_inner{
+        width: 90vw;
+        min-height: 7.5vw;
+        max-height: 96vh;
+        overflow: auto;
+        padding: 20vw 7.5vw 7.5vw;
+        .popup_title{
+          font-size: 10vw;
+          line-height: 100%;
+        }
+        .popup_subtitle{
+          font-size: 5vw;
+          line-height: 7.5vw;
+        }
+      }
+      &.jardin_login_popup{
+        .jardin_popup_inner{
+
+          .popup_title{
+            margin-bottom: 7.5vw;
+          }
+          .popup_subtitle {
+            margin-bottom: 7.5vw;
+          }
+          .social_login_options{
+            .social_login{
+              width: 12.5vw;
+              margin: 0 3.75vw;
+            }
+          }
+        }
+      }
+      &.jardin_save_results_popup{
+        .jardin_popup_inner{
+          .result_icon{
+            width: 30vw;
+            margin: 0 auto 10vw;
+          }
+          .popup_title{
+            margin-bottom: 3.13vw;
+          }
+          .popup_subtitle {
+            margin-bottom: 10vw;
+          }
+          .social_login_options{
+            .social_login{
+              width: 12.5vw;
+              margin: 0 3.75vw;
+            }
+          }
+        }
+      }
+      &.jardin_contact_form_popup{
+        .jardin_popup_inner{
+          .popup_title{
+            margin-bottom: 7.5vw;
+          }
+          .jardin_contact_form{
+            .formRow {
+              margin-bottom: 5vw;
+              &.formRow_input{
+                width: 100%;
+              }
+              &--textarea{
+                height: 27.5vw;
+              }
+              &--input {
+                padding: 2.5vw;
+                font-size: 5vw;
+                line-height: 7.5vw;
+                &-wrapper {
+                  &.active {
+                    .placeholder {
+                      top: -2.18vw;
+                      font-size: 4.375vw;
+                      line-height: 5vw;
+                    }
+                  }
+                }
+              }
+              .error_message{
+                left: 1.03vw;
+                bottom:-0.47vw;
+              }
+              .placeholder {
+                top: 3vw;
+                left: 2.5vw;
+                padding: 0 1.25vw;
+                font-size: 5vw;
+                line-height: 7.5vw;
+              }
+            }
+            .jardin_form_submit{
+              margin: 7.5vw auto 0;
+              font-size: 6.52vw;
+              line-height: 7.85vw;
+              width: 75vw;
+              height: 18.96vw;
+            }
+          }
+        }
+        &.jardin_contact_form_sent_popup{
+          .jardin_popup_inner{
+            .form_sent_icon{
+              width: 30vw;
+              margin: 0 auto 10vw;
+            }
+            .popup_title{
+              margin-bottom: 5vw;
+            }
+          }
+        }
+      }
+      &.jardin_user_blocked_popup{
+        .jardin_popup_inner{
+          padding: 20vw 7.5vw 7.5vw;
+          .result_icon{
+            width: 30vw;
+            margin: 0 auto 4.16vw;
+          }
+          .popup_title{
+            margin-bottom: 5vw;
+          }
+          .popup_subtitle {
+            margin-bottom: 5vw;
+          }
+          .popup_link{
+            font-size: 5vw;
+            line-height: 5vw;
+          }
+        }
+      }
+    }
+    #scroll_up{
+      bottom: 46.87vw;
+      right: 6.25vw;
+      width: 10vw;
+      height: 10vw;
+    }
+  }
+}
